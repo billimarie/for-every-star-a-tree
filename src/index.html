@@ -1,6 +1,15 @@
 <!doctype html>
 <html>
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7RRMZ0D6T"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-H7RRMZ0D6T');
+        </script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>for every star, a tree.</title>
@@ -27,10 +36,10 @@
                         </button>
                         </div>
                         <div class="hidden md:flex md:gap-x-12">
-                        <a href="#trees" class="text-sm font-semibold leading-6 text-gray-900">Claim Your Tree</a>
-                        <a href="#water" class="text-sm font-semibold leading-6 text-gray-900">Send Water!</a>
+                        <a href="#trees" class="text-sm font-semibold leading-6 text-gray-900">Choose Your Tree</a>
+                        <a href="#mission" class="text-sm font-semibold leading-6 text-gray-900">Our Mission</a>
                         <a href="#how" class="text-sm font-semibold leading-6 text-gray-900">How It Works</a>
-                        <a href="#map" class="text-sm font-semibold leading-6 text-gray-900">Map</a>
+                        <a href="#tour" class="text-sm font-semibold leading-6 text-gray-900">Tour</a>
                         </div>
                         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                         <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hidden">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -70,19 +79,20 @@
                     </div>
                     </header>
                 
-                    <div class="relative isolate px-6 pt-14 lg:px-8">
+                    <div class="relative isolate px-5 pt-10 sm:px-6 sm:pt-14 lg:px-8">
                     <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-                        <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-                            <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                            Get notified by email when we launch. <a href="https://mailchi.mp/299a6b710d4e/lets-grow-a-forest" target="_blank" class="font-semibold text-cyan-600"><span class="absolute inset-0" aria-hidden="true"></span>Join Waitlist <span aria-hidden="true">&rarr;</span></a>
-                            </div>
+                        <div class="mb-8 flex justify-center">
+                            
                         </div>
                         <div class="text-center">
-                        <h1 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">grow your own <span class="text-cyan-600">forest</span>.</h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-700">View the map. Choose a plot. Buy your trees. Then watch us plant.</p>
+                        <h1 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">...let's grow a <span class="text-cyan-600">forest</span>.</h1>
+                        <h2 class="mt-6 text-lg leading-8 text-gray-700">We're a nonprofit that plants trees in the desert.</h2>
                         <div class="mt-10 flex items-center justify-center gap-x-6">
-                            <a href="#trees" class="rounded-md bg-cyan-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-700">Claim Your Tree</a>
-                            <a href="#how" class="text-sm font-semibold leading-6 text-gray-900">How It Works <span aria-hidden="true">→</span></a>
+                            <!--<a href="#trees" class="rounded-md bg-cyan-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-700">Choose Your Tree</a>-->
+                            <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                                <a href="#trees" class="font-semibold text-gray-500"><span class="absolute inset-0" aria-hidden="true"></span>Choose Your Tree</a>
+                            </div>
+                            <a href="#how" class="text-sm leading-6 text-gray-600">How It Works</a>
                         </div>
                         </div>
                     </div>
@@ -93,171 +103,223 @@
 
             <section id="trees">
                 <div class="bg-white">
-                    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+                    <div class="mx-auto max-w-2xl px-4 mt-16 sm:px-6 sm:mt-24 lg:max-w-7xl lg:px-8">
                         <div class="text-center mb-20">
-                            <h2 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">claim your <span class="text-cyan-600">tree</span></h2>
-                            <p class="mt-6 text-lg leading-8 text-gray-700">We are based in the Antelope Valley desert region of Southern California. Here is a selection of native plants for you to choose from.</p>
+                            <h2 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">choose your <span class="text-cyan-600">tree</span></h2>
+                            <p class="mt-6 text-lg leading-8 text-gray-700">Which plant would you like to bring to life?</p>
                         </div>
                   
                         <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                            <a href="#" class="group">
-                            <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                <img src="./img/narrow-leaf-milkweed-shop-item.jpeg" alt="Narrow Leaf Milkweed." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                            </div>
-                            <h3 class="mt-4 text-sm text-gray-700">Narrow Leaf Milkweed (4")</h3>
-                            <p class="mt-1 text-lg font-medium text-gray-900">$10.50</p>
+
+                            <a href="#" class="group hidden md:block">
+                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                    <img src="./img/california-buckwheat-shop-item.jpeg" alt="Desert Olive." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                </div>
+                                <h3 class="mt-4 text-sm text-gray-700">California Buckwheat (Seeds)</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$9</p>
                             </a>
-                            <a href="#" class="group">
+                            <a href="https://donate.stripe.com/00gbKecdM0qTgPS6oo" class="group">
+                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                    <img src="./img/narrow-leaf-milkweed-shop-item.jpeg" alt="Narrow Leaf Milkweed." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                </div>
+                                <h3 class="mt-4 text-sm text-gray-700">Narrow Leaf Milkweed (4")</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$10.50</p>
+                            </a>
+                            <a href="https://donate.stripe.com/6oEaGacdM7Tl1UY001" class="group">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                                 <img src="./img/bigberry-manzanita-shop-item.jpeg" alt="Bigberry Manzanita." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
                                 <h3 class="mt-4 text-sm text-gray-700">Bigberry Manzanita (1gal)</h3>
                                 <p class="mt-1 text-lg font-medium text-gray-900">$18</p>
                             </a>
-                            <a href="#" class="group">
+                            <a href="#" class="group md:block">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                <img src="./img/desert-mallow-shop-item.jpeg" alt="Bigberry Manzanita." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    <img src="./img/coffeeberry-shop-item.jpeg" alt="Coffeeberry." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Desert Mallow</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                <h3 class="mt-4 text-sm text-gray-700">Coffeeberry (5gal)</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$52.50</p>
                             </a>
-                            <a href="#" class="group">
+                            <a href="#" class="group md:block">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                <img src="./img/wolfberry-shop-item.jpeg" alt="Bigberry Manzanita." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    <img src="./img/small-flowered-melica-shop-item.jpeg" alt="Small Flowered Melica." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Wolfberry</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                <h3 class="mt-4 text-sm text-gray-700">Small Flowered Melica (1gal)</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$52.50</p>
                             </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                <img src="./img/english-lavender-shop-item.jpeg" alt="Bigberry Manzanita." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">English Lavender</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/desert-willow-shop-item.jpeg" alt="Desert Willow." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Desert Willow</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/brittlebush-shop-item.jpeg" alt="Brittlebush." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Brittlebush</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/honey-locust-shop-item.jpeg" alt="Honey Locust." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Honey Locust</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/foothill-sedge-shop-item.jpeg" alt="Foothill Sedge." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Foothill Sedge</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/mexican-sycamore-shop-item.jpeg" alt="Mexican Sycamore." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Mexican Sycamore</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/modesto-ash-shop-item.jpeg" alt="Modesto Ash." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Modesto Ash</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/canyon-live-oak-shop-item.jpeg" alt="Canyon Live Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Canyon Live Oak</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/desert-olive-shop-item.jpeg" alt="Desert Olive." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Desert Olive</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
+                            <!--<a href="#" class="group hidden md:block">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                                     <img src="./img/coast-live-oak-shop-item.jpeg" alt="Coast Live Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Coast Live Oak</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                <h3 class="mt-4 text-sm text-gray-700">Coast Live Oak (5gal)</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$52.50</p>
                             </a>
-                            <a href="#" class="group">
+                            <a href="#" class="group hidden md:block">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/chinese-pistache-shop-item.jpeg" alt="Chinese Pistache." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    <img src="./img/coast-live-oak-shop-item.jpeg" alt="Coast Live Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Chinese Pistache</h3>
+                                <h3 class="mt-4 text-sm text-gray-700">Sandbar Willow</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$52.50</p>
+                            </a>
+                            <a href="#" class="group hidden md:block">
+                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                    <img src="./img/coast-live-oak-shop-item.jpeg" alt="Coast Live Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                </div>
+                                <h3 class="mt-4 text-sm text-gray-700">Pinyon Pine</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$52.50</p>
+                            </a>
+                            <a href="#" class="group hidden md:block">
+                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                    <img src="./img/coast-live-oak-shop-item.jpeg" alt="Coast Live Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                </div>
+                                <h3 class="mt-4 text-sm text-gray-700">Arroyo Willow</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$52.50</p>
+                            </a>
+                            <a href="#" class="group hidden md:block">
+                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                    <img src="./img/california-juniper-shop-item.jpeg" alt="Chinese Elm." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                </div>
+                                <h3 class="mt-4 text-sm text-gray-700">California Juniper (TBD)</h3>
                                 <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
                             </a>
-                            <a href="#" class="group">
+                            <a href="https://donate.stripe.com/eVacOi6Ts3D5fLO9AC" class="group hidden md:block">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                                     <img src="./img/valley-oak-shop-item.jpeg" alt="Valley Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Valley Oak</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                <h3 class="mt-4 text-sm text-gray-700">Valley Oak (1gal)</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$18</p>
                             </a>
-                            <a href="#" class="group">
+                            <a href="#" class="group hidden md:block">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                                     <img src="./img/chinese-elm-shop-item.jpeg" alt="Chinese Elm." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
                                 <h3 class="mt-4 text-sm text-gray-700">Chinese Elm</h3>
                                 <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
                             </a>
-                            <a href="#" class="group">
+                            <a href="#" class="group hidden md:block">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/golden-rain-tree-shop-item.jpeg" alt="Golden Rain Tree." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    <img src="./img/california-poppy-shop-item.jpeg" alt="Chinese Elm." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
-                                <h3 class="mt-4 text-sm text-gray-700">Golden Rain Tree</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                <h3 class="mt-4 text-sm text-gray-700">California Poppy (Seeds)</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">$7.50</p>
                             </a>
-                            <a href="#" class="group">
+                            <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                    <img src="./img/wolfberry-shop-item.jpeg" alt="Bigberry Manzanita." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Wolfberry</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                    <img src="./img/desert-mallow-shop-item.jpeg" alt="Bigberry Manzanita." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Desert Mallow</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                    <img src="./img/english-lavender-shop-item.jpeg" alt="English Lavender." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">English Lavender</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/desert-willow-shop-item.jpeg" alt="Desert Willow." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Desert Willow</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/brittlebush-shop-item.jpeg" alt="Brittlebush." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Brittlebush</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/honey-locust-shop-item.jpeg" alt="Honey Locust." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Honey Locust</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/foothill-sedge-shop-item.jpeg" alt="Foothill Sedge." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Foothill Sedge</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/mexican-sycamore-shop-item.jpeg" alt="Mexican Sycamore." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Mexican Sycamore</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/modesto-ash-shop-item.jpeg" alt="Modesto Ash." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Modesto Ash</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/canyon-live-oak-shop-item.jpeg" alt="Canyon Live Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Canyon Live Oak</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/desert-olive-shop-item.jpeg" alt="Desert Olive." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Desert Olive</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/chinese-pistache-shop-item.jpeg" alt="Chinese Pistache." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Chinese Pistache</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/golden-rain-tree-shop-item.jpeg" alt="Golden Rain Tree." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">Golden Rain Tree</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/pin-oak-shop-item.jpeg" alt="Pin Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700"></h3>Pin Oak</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="group hidden md:block">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="./img/california-wildflowers-shop-item.jpeg" alt="California Wildflowers." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">California Wildflowers</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
+                                </a>
+                                <a href="#" class="hidden group">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/pin-oak-shop-item.jpeg" alt="Pin Oak." class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    <img src="./img/desert-lavender-shop-item.jpeg" alt="Desert Lavender." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
-                                <h3 class="mt-4 text-sm text-gray-700"></h3>Pin Oak</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="group">
-                                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                    <img src="./img/california-wildflowers-shop-item.jpeg" alt="California Wildflowers." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700">California Wildflowers</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">TBD</p>
-                            </a>
-                            <a href="#" class="hidden group">
-                            <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                                <img src="./img/desert-lavender-shop-item.jpeg" alt="Desert Lavender." class="h-full w-full object-cover object-center group-hover:opacity-75">
-                            </div>
-                            <h3 class="mt-4 text-sm text-gray-700">Desert Lavender</h3>
-                            <p class="mt-1 text-lg font-medium text-gray-900">SOLD OUT</p>
-                            </a>
-                        </div>
-                        <div class="mt-8 mb-8 flex justify-center">
-                            <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                            More plants coming soon. <a href="https://mailchi.mp/299a6b710d4e/lets-grow-a-forest" target="_blank" class="font-semibold text-cyan-600"><span class="absolute inset-0" aria-hidden="true"></span>Join Waitlist <span aria-hidden="true">&rarr;</span></a>
-                            </div>
+                                <h3 class="mt-4 text-sm text-gray-700">Desert Lavender</h3>
+                                <p class="mt-1 text-lg font-medium text-gray-900">SOLD OUT</p>
+                                </a> -->
                         </div>
                     </div>
                   </div>
             </section>
 
-            <section id="water">
+            <!-- <section id="water">
                 <div class="bg-white py-24 sm:py-32">
                     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                         <div class="text-center mb-20">
@@ -273,55 +335,142 @@
                       </div>
                     </div>
                   </div>
+            </section> -->
+
+            <section id="mission">
+                <div class="bg-white mt-24 sm:py-32">
+                    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+                        <div class="text-center mb-20">
+                            <h3 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">our <span class="text-cyan-600">mission</span></h3>
+                        </div>
+                        <div class="relative isolate overflow-hidden bg-white  lg:overflow-visible lg:px-0">
+                            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+                                <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                                    <img class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="./img/for-every-star-a-tree_desert-garden_forest-oasis_tree-planting.jpeg" alt="">
+                                    
+                                </div>
+                                <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                                    <div class="lg:pr-4">
+                                        <div class="lg:max-w-lg">
+                                            <p class="text-base font-semibold leading-7 text-cyan-600">Climate joy</p>
+                                            <h4 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Be part of the desert forest dream</h4>
+                                            <p class="mt-6 text-xl leading-8 text-gray-700">Since 2021, we have planted over 100 trees, wildflowers, grasses, and shrubs throughout 10 acres of desert land. We strive to <strong>heal abandonded land</strong> by cultivating gardens and forests. We do this by accepting donations from generous people like you.</p>
+                                            <p class="mt-6 text-xl leading-8 text-gray-700">We believe in inviting people from around the globe to contribute to afforestation on a <strong>personal</strong> level. That's why we're inviting you to <strong>plant your own tree from anywhere in the world</strong>.</p>
+                                            <p class="mt-6 text-xl leading-8 text-gray-700">Together, we can grow this special land into a green oasis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
             </section>
 
             <section id="how">
-                <div class="bg-white py-24 sm:py-32">
+                <div class="bg-white">
                     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                         <div class="text-center mb-20">
-                            <h2 class="text-base font-semibold leading-7 text-gray-700 mb-6">how it works</h2>
-                            <h3 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">grow a forest with the click of a <span class="text-cyan-600">button</span></h3>
+                            <h3 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">how it <span class="text-cyan-600">works</span></h3>
                         </div>
-                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                      <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
-                        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
-                          <dt class="text-base leading-7 text-gray-600">Select the tree you want planted</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Buy A Tree</dd>
-                        </div>
-                        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
-                          <dt class="text-base leading-7 text-gray-600">Select a plot on 10 acres of land</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Choose A Plot</dd>
-                        </div>
-                        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
-                          <dt class="text-base leading-7 text-gray-600">24/7 livestream + SMS updates</dt>
-                          <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Watch It Grow!</dd>
-                        </div>
-                      </dl>
+                        <div class="relative isolate overflow-hidden bg-white  lg:overflow-visible lg:px-0">
+                            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+                                <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                                    <div class="lg:pr-4">
+                                        <div class="lg:max-w-lg">
+                                            <p class="text-base font-semibold leading-7 text-cyan-600">Climate joy</p>
+                                            <h4 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">We make tree planting personal</h4>
+                                            <p class="mt-6 text-xl leading-8 text-gray-700">In October 2023, we will start planting a Miyawaki Forest. We will be starting with 100ft<sup>2</sup> and growing from there.</p>
+                                        <p class="mt-6 text-xl leading-8 text-gray-700">First, <a href="#trees">select your tree</a> or gift one to somebody special. Next, you'll get an invite with the date and time of your planting. Everyone's trees will be planted on the same day, so that we can all participate together.</p>
+                                        <p class="mt-6 text-xl leading-8 text-gray-700">If you want regular inner circle updates about your tree, you can subscribe for monthly text messages, videos, pictures, 24/7 livestreaming, and more. This can also be gifted to a friend.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                                    <img class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="./img/for-every-star-a-tree_desert-garden_forest-oasis_tree-planting.jpeg" alt="">
+                                </div>
+                            </div>
+                          </div>
                     </div>
-                    </div>
-                    <div class="mt-8 mb-8 flex justify-center">
-                        <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                        Get early access. <a href="https://mailchi.mp/299a6b710d4e/lets-grow-a-forest" target="_blank" class="font-semibold text-cyan-600"><span class="absolute inset-0" aria-hidden="true"></span>Join Waitlist <span aria-hidden="true">&rarr;</span></a>
-                        </div>
-                    </div>
-                  </div>
+                </div>
             </section>
 
-            <section id="map">
-                <div class="bg-white py-24 sm:py-32">
+            <section id="tour">
+                <div class="bg-white">
                     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                         <div class="text-center mb-20">
-                            <h2 class="text-base font-semibold leading-7 text-gray-700 mb-6">view the map</h2>
-                            <h3 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">we've been planting since <span class="text-cyan-600">2021</span></h3>
-                            <p class="mt-6 text-lg leading-8 text-gray-700">We're working on creating a detailed map for you to explore. You will be able to see a satellite image with different markers for each plant.</p>
-                        </div>
-                        <div class="mt-8 mb-8 flex justify-center">
-                            <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                            We'll notify you when the map is ready. <a href="https://mailchi.mp/299a6b710d4e/lets-grow-a-forest" target="_blank" class="font-semibold text-cyan-600"><span class="absolute inset-0" aria-hidden="true"></span>Join Waitlist <span aria-hidden="true">&rarr;</span></a>
+                            <h3 class="text-4xl font-bold tracking-tight text-teal-600 sm:text-6xl">watch a <span class="text-cyan-600">tour</span></h3>
+                            <p class="mt-6 text-lg leading-8 text-gray-700">In August 2023, we walked the entire 10 acres to show how much we've done on our own. <a href="https://www.youtube.com/watch?v=oICNrcs7iOY" target="_blank"><strong>YouTube</strong> <span aria-hidden="true">&rarr;</span></a></p>
+                            <a href="https://www.youtube.com/watch?v=oICNrcs7iOY" target="_blank"><img class="mx-auto px-6 py-16" src="./img/for-every-star-a-tree_buildspace-nights-and-weekends-season-4_desert-forest-dream_video-tour_august-2023.jpg" width="300px" /></a>
+                            <div class=" mb-8 flex justify-center">
+                                <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                                View the map. <a href="https://mailchi.mp/299a6b710d4e/lets-grow-a-forest" target="_blank" class="font-semibold text-cyan-600"><span class="absolute inset-0" aria-hidden="true"></span>Beta Access <span aria-hidden="true">&rarr;</span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                   </div>
+            </section>
+
+            <section id="footer">
+                <footer class="">
+                    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+                        <div class="flex lg:flex-1">
+                        <a href="#" class="-m-1.5 p-1.5">
+                            <span class="sr-only">For Every Star, A Tree</span>
+                            <img class="h-8 w-auto" src="./img/for-every-star-a-tree_green_youtube-channel_logo.png" alt="For Every Star, A Tree.">
+                        </a>
+                        </div>
+                        <div class="flex lg:hidden">
+                        <button type="button" class="hidden -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </button>
+                        </div>
+                        <div class="hidden md:flex md:gap-x-12">
+                        <a href="#trees" class="text-sm font-semibold leading-6 text-gray-900">Choose Your Tree</a>
+                        <a href="#mission" class="text-sm font-semibold leading-6 text-gray-900">Our Mission</a>
+                        <a href="#how" class="text-sm font-semibold leading-6 text-gray-900">How It Works</a>
+                        <a href="#tour" class="text-sm font-semibold leading-6 text-gray-900">Tour</a>
+                        </div>
+                        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hidden">Log in <span aria-hidden="true">&rarr;</span></a>
+                        </div>
+                    </nav>
+                    <!-- Mobile menu, show/hide based on menu open state. -->
+                    <div class="hidden" role="dialog" aria-modal="true">
+                        <!-- Background backdrop, show/hide based on slide-over state. -->
+                        <div class="fixed inset-0 z-50"></div>
+                        <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                        <div class="flex items-center justify-between">
+                            <a href="#" class="-m-1.5 p-1.5">
+                            <span class="sr-only">For Every Star, A Tree</span>
+                            <img class="h-8 w-auto" src="./img/for-every-star-a-tree_green_youtube-channel_logo.png" alt="">
+                            </a>
+                            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                            <span class="sr-only">Close menu</span>
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                            </button>
+                        </div>
+                        <div class="mt-6 flow-root">
+                            <div class="-my-6 divide-y divide-gray-500/10">
+                            <div class="space-y-2 py-6">
+                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
+                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
+                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
+                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+                            </div>
+                            <div class="py-6">
+                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </footer>
             </section>
 
         </main>
