@@ -111,7 +111,7 @@
                   
                         <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
 
-                            <a href="https://donate.stripe.com/3cs9C63HgddF7fi7sv" class="group hidden md:block">
+                            <a href="https://donate.stripe.com/3cs9C63HgddF7fi7sv" class="group">
                                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                                     <img src="./img/california-buckwheat-shop-item.jpeg" alt="Desert Olive." class="h-full w-full object-cover object-center group-hover:opacity-75">
                                 </div>
@@ -411,65 +411,38 @@
                   </div>
             </section>
 
+            <!-- fix the styles to tailwind at some point -->
             <section id="footer">
-                <footer class="">
-                    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-                        <div class="flex lg:flex-1">
-                        <a href="#" class="-m-1.5 p-1.5">
-                            <span class="sr-only">For Every Star, A Tree</span>
-                            <img class="h-8 w-auto" src="./img/for-every-star-a-tree_green_youtube-channel_logo.png" alt="For Every Star, A Tree.">
-                        </a>
+                <footer class="flex flex-col mx-auto" style="width: 100%; max-width: 1200px;">
+                    <nav class="sm:flex sm:flex-row sm:justify-evenly sm:gap-y-12 p-6 lg:px-8" aria-label="Footer" style="justify-content: space-evenly">
+                        <div class="flex flex-col mb-10 sm:mb-0">
+                            <h6 class="font-semibold text-teal-600">Explore</h6>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Beta</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Map</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Community</a>
                         </div>
-                        <div class="flex lg:hidden">
-                        <button type="button" class="hidden -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-                            <span class="sr-only">Open main menu</span>
-                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                            </svg>
-                        </button>
+                        <div class="flex flex-col mb-10 sm:mb-0">
+                            <h6 class="font-semibold text-teal-600">Nonprofit</h6>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Mission</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Values</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Vision</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Donate</a>
                         </div>
-                        <div class="hidden md:flex md:gap-x-12">
-                        <a href="#trees" class="text-sm font-semibold leading-6 text-gray-900">Choose Your Tree</a>
-                        <a href="#mission" class="text-sm font-semibold leading-6 text-gray-900">Our Mission</a>
-                        <a href="#how" class="text-sm font-semibold leading-6 text-gray-900">How It Works</a>
-                        <a href="#tour" class="text-sm font-semibold leading-6 text-gray-900">Tour</a>
+                        <div class="flex flex-col mb-10 sm:mb-0">
+                            <h6 class="font-semibold text-teal-600">About</h6>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">History</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Blog</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Earthworkers</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Blog</a>
                         </div>
-                        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hidden">Log in <span aria-hidden="true">&rarr;</span></a>
+                        <div class="flex flex-col mb-10 sm:mb-0">
+                            <h6 class="font-semibold text-teal-600">Contact</h6>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Contact</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Mailing List</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Get Involved</a>
+                            <a href="#" class="text-sm font-semibold leading-6 text-gray-600">Press</a>
                         </div>
                     </nav>
-                    <!-- Mobile menu, show/hide based on menu open state. -->
-                    <div class="hidden" role="dialog" aria-modal="true">
-                        <!-- Background backdrop, show/hide based on slide-over state. -->
-                        <div class="fixed inset-0 z-50"></div>
-                        <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                        <div class="flex items-center justify-between">
-                            <a href="#" class="-m-1.5 p-1.5">
-                            <span class="sr-only">For Every Star, A Tree</span>
-                            <img class="h-8 w-auto" src="./img/for-every-star-a-tree_green_youtube-channel_logo.png" alt="">
-                            </a>
-                            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                            <span class="sr-only">Close menu</span>
-                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                            </button>
-                        </div>
-                        <div class="mt-6 flow-root">
-                            <div class="-my-6 divide-y divide-gray-500/10">
-                            <div class="space-y-2 py-6">
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
-                            </div>
-                            <div class="py-6">
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
                 </footer>
             </section>
 
