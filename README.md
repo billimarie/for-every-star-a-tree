@@ -1,35 +1,52 @@
-![Screenshot 2023-08-18 at 3 08 34 PM](https://github.com/billimarie/for-every-star-a-tree/assets/6895471/74ccec68-6b34-47d7-b7bf-527268ca21c2)
+<img width="1141" height="663" alt="{For Every Star, A Tree – nurturing native ecosystems in the desert}" src="https://github.com/user-attachments/assets/2807d7ea-69a5-4d17-9e9c-dcf67b0d2c9d" />
 
 # For Every Star, A Tree
-> A website for growing a forest in the desert.
 
-"For Every Star, A Tree" is currently in its first year. We are a community-led, grassroots, nonprofit organization that believes **local climate action can help rebalance the global climate crisis**.
+**The official website for *For Every Star A Tree,* a 501(c)(3) nonprofit on a mission to regenerate desertified land into a thriving oasis through community-led earthcare.**
 
-Our current pilot site is a 10 acre lot in the desert of Antelope Valley (Los Angeles County, Southern California, United States). We are completely remote, off-grid, and based on unincorporated territory.
+---
 
-## Our Climate Action Plan
-Our plan is to utilize the Miyawaki Forest method, along with specifically selected native and non-native plants which are known to quickly establish in our region and withstand heat, wind, and pests.
+##  Mission & Impact
+For Every Star A Tree is an official **501(c)(3) nonprofit** ([Candid](https://app.candid.org/profile/15433332/)) dedicated to cultivating biodiversity in Los Angeles County's desertified region through scalable, climate-resilient miniature forests.
 
-The goal will be to plant 30 - 50 different varieties of trees, shrubs, wildflowers, plants, grasses, and other plants within a 100ft2 space.
+---
 
-This community Miyawaki forest will be safeguarded by fencing, security cameras, and protective barriers. We have been raising funds for this project through individual donations, community partnerships, and generous angel investments.
+##  Our Story  
+Founded in 2021, we began with a single tree and have since grown into a thriving quarter-acre Tiny Forest, restoring desertified land with volunteer passion, ecological science, and open-source transparency.
 
-## Our Mission
-Our mission is to heal abandoned and degraded land in Antelope Valley through optimistic rewilding, compassionate earthcare, and dedicated community work.
+---
 
-For Every Star, A Tree heals abandoned land by cultivating little pocket forests and gardens, and offers these creatively-inspired sanctuary spaces to others who are seeking solace from grief, illness, or trauma.
+##  How We Make a Difference
 
-We are compassionate caretakers of earth and the human spirit.
+**Pocket Forests & Pollinator Habitats** 
+Plant dense patches of native California trees, shrubs, and wildflowers to support biodiversity and pollinators across the Antelope Valley.
 
-## Our Website
-For Every Star, A Tree will continuously publish its website changes via GitHub.
+**Resilience through Community Engagement**  
+Empower local residents to plant, water, and care for these living ecosystems—strengthening environmental stewardship from the ground up.
 
-We believe in technology's spirit of transparency, accountability, and global communications.
+**Measurable Environmental & Social Impact**  
+We monitor biodiversity via [iNaturalist](https://www.inaturalist.org/projects/for-every-star-a-tree/), track watering schedules, measure plant health and soil transformation, and log volunteer and visitor engagement.
 
-We want everyone, anywhere, to be able to join us as we collectively plant trees in the desert.
+---
 
-## [Public Roadmap](https://github.com/users/billimarie/projects/3)
-On our GitHub project, you can find our timetable and roadmap for three simultaneous projects:
-- Crowdfunding
-- Buildspace (Web App)
-- Website
+##  Community & Collaboration Opportunities
+
+| Expertise Needed     | Contribution |
+|----------------------|--------------|
+| Ecologists / Botanists | Help select heat- and drought-resilient native species |
+| Citizen Scientists     | Use iNaturalist to log biodiversity in our Pocket Forests |
+| Web / GIS Developers   | Build interactive planting dashboards or monitoring tools |
+| Fundraisers / Grant Writers | Support campaigns, grants, and storytelling |
+| Volunteers / Earthworkers  | Join planting days, care visits, or storytelling efforts |
+
+---
+
+##  Learn More & Get Involved  
+- **[Official Website](https://foreverystaratree.org):** Explore our mission, impact, and updates.
+- **[Idealist Profile](https://www.idealist.org/en/nonprofit/4bb5354de53f4f91b5963e24ff5d0054-for-every-star-a-tree-los-angeles):** Featured as a volunteer-led ecofarm stewarding desert regeneration.
+- **Social Media**: [LinkedIn](https://www.linkedin.com/company/for-every-star-a-tree), [Facebook](https://www.facebook.com/for.every.star.a.tree/), [TikTok](https://www.tiktok.com/@foreverystaratree), [Instagram](https://www.instagram.com/foreverystaratree/), [Twitter/X](https://x.com/everystaratree)
+
+---
+
+##  Keywords
+Regenerative Agriculture, Mojave Desert, Rewilding, Antelope Valley, Biodiversity, Los Angeles, Climate Action, Nonprofit, Environmentalism, Ecological Restoration, Pollinator Garden, Citizen Science, Conservation
