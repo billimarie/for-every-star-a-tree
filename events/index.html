@@ -50,7 +50,7 @@
                 <!-- LOGO -->
                 <div class="flex-shrink">
                     <a href="/" class="flex items-center justify-start gap-2.5">
-                        <img src="https://res.cloudinary.com/djrhjkkvm/image/upload/v1768082276/Logos/forEST-logo_rj0uz6.png" class="h-16 w-16 lg:h-20 lg:w-20 p-1 pl-0 ml-[-3px] rounded-xl" />
+                        <img src="https://res.cloudinary.com/djrhjkkvm/image/upload/v1768082276/Logos/forEST-logo_rj0uz6.png" class="h-16 w-16 lg:h-20 lg:w-20 p-1 pl-0 ml-[-3px] rounded-xl">
                         <h1 class="hidden sm:block sm:text-lg lg:w-16 text-slate-600 font-dosis-bold tracking-wider hover:text-cyan-700 transition-all duration-300" style="line-height:0.8;">for every star a tree</h1>
                     </a>
                 </div>
@@ -77,10 +77,10 @@
                     <ul class="hidden lg:inline-flex space-x-6 items-center">
                         <li class="list-none inline-flex"><a href="/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Home</a></li>
                         <li class="list-none inline-flex"><a href="/about/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">About</a></li>
-                        <li class="list-none inline-flex"><a href="/volunteer/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Volunteer</a></li>
-                        <li class="list-none inline-flex"><a href="/events/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Events</a></li>
+                        <li class="list-none inline-flex"><a href="/volunteer/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Ethos</a></li>
+                        <li class="list-none inline-flex"><a href="/events/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Volunteer</a></li>
                         <li class="list-none inline-flex"><a href="/csa/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">CSA Box</a></li>
-                        <li class="list-none inline-flex"><a href="/farm-school/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Farm School</a></li>
+                        <li class="list-none inline-flex"><a href="/farm-school/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Farm Kids</a></li>
                         <li class="list-none inline-flex"><a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="text-xl text-cyan-600 rounded-xl py-1 px-2 hover:scale-[1.1] transition-all duration-300 dosis-extra-bold uppercase border-cyan-600 border-2">Donate</a></li>
                     </ul>
                     <ul class="flex flex-row justify-end">
@@ -102,7 +102,7 @@
             <ul id="mainMenu" class="top-6 relative bg-slate-50 text-left text-slate-600 text-md w-2/3 sm:w-1/2 space-y-2 pt-20 pl-2 pb-20 h-screen overflow-y-scroll">
                 <li class="border-1 border-b border-slate-400 mx-4 my-2">
                     <a href="/volunteer/" class="flex justify-between items-center w-full text-left hover:text-blue-600 duration-300 px-3.5 pt-3 pb-2 pl-0 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3">
-                        Volunteer
+                        Ethos
                     </a>
                 </li>
                 <li class="border-1 border-b border-slate-400 mx-4 my-2">
@@ -123,7 +123,7 @@
                 </li>
                 <li class="border-1 border-b border-slate-400 mx-4 my-2">
                     <button onclick="toggleAccordion('school-menu', this)" class="flex justify-between items-center w-full text-left hover:text-teal-600 duration-300 px-3.5 pt-3 pb-2 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3 pl-0">
-                        Farm School
+                        Farm Kids
                         <svg class="w-6 h-6 transform transition-transform duration-300 rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
                     <ul id="school-menu" class="pl-3.5 text-slate-500 space-y-2 pb-2">
@@ -135,7 +135,7 @@
                 </li>
                 <li class="border-1 border-b border-slate-400 mx-4 my-2">
                     <a href="/events/" class="flex justify-between items-center w-full text-left hover:text-blue-600 duration-300 px-3.5 pt-3 pb-2 pl-0 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3">
-                        Events
+                        Volunteer
                     </a>
                 </li>
                 <li class="border-1 border-b border-slate-400 mx-4 my-2">
@@ -160,7 +160,7 @@
             <div class="modal relative">
                 
                 <div class="modal-header pt-6 px-6 pb-2">
-                    <button class="absolute top-2 right-4 text-3xl text-gray-400 hover:text-gray-600 focus:outline-none" id="closeModal">&times;</button>
+                    <button class="absolute top-2 right-4 text-3xl text-gray-400 hover:text-gray-600 focus:outline-none" id="closeModal">×</button>
                     
                     <div class="w-full bg-gray-200 rounded-full h-2.5 mb-4 w-[96%]">
                         <div id="progressBar" class="modal-progress-bar bg-cyan-600 h-2.5 rounded-full" style="width: 50%"></div>
@@ -174,39 +174,27 @@
                         <h2 class="text-3xl text-center text-cyan-950 font-bold mb-8">What would you like to support?</h2>
                         
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" 
-                                data-type="link" 
-                                data-url="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true">
+                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" data-type="link" data-url="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true">
                                 EVERYTHING!
                             </button>
 
-                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" 
-                                data-type="folder" 
-                                data-target="food-forest">
+                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" data-type="folder" data-target="food-forest">
                                 The Food Forest
                             </button>
 
-                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" 
-                                data-type="folder" 
-                                data-target="animals">
+                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" data-type="folder" data-target="animals">
                                 Animals
                             </button>
                             
-                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" 
-                                data-type="link" 
-                                data-url="./earthworkers/">
+                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" data-type="link" data-url="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true">
                                 People
                             </button>
 
-                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" 
-                                data-type="folder" 
-                                data-target="structures">
+                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" data-type="folder" data-target="structures">
                                 Structures
                             </button>
 
-                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" 
-                                data-type="folder" 
-                                data-target="regeneration">
+                            <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" data-type="folder" data-target="regeneration">
                                 Regeneration
                             </button>
                         </div>
@@ -215,40 +203,40 @@
                     <div id="step2" class="step-container hidden">
                         <div class="flex items-center mb-6">
                             <button id="backBtn" class="text-sm text-gray-500 hover:text-cyan-600 flex items-center">
-                                &larr; Back to Categories
+                                ← Back to Categories
                             </button>
                         </div>
 
                         <h3 id="subTitle" class="text-3xl text-center text-cyan-950 font-bold mb-6">Fantastic! You can help fund the following:</h3>
                         
                         <div id="food-forest" class="sub-options hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <a href="https://link-to-veg.com" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Vegetables</a>
-                            <a href="https://link-to-fruit.com" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Fruits</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Vegetables</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Fruits</a>
                         </div>
 
                         <div id="regeneration" class="sub-options hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Irrigation</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Compost</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Worms</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Beehives</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Native Plants</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Butterfly Garden</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Irrigation</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Compost</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Worms</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Beehives</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Native Plants</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Butterfly Garden</a>
                         </div>
 
                         <div id="structures" class="sub-options hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Starry Night Skoolie</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Fencing</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Compost Toilet</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Shade</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Starry Night Skoolie</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Fencing</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Compost Toilet</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Shade</a>
                         </div>
 
                         <div id="animals" class="sub-options hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Heart Bees</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Matriarchy Eggs</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Charlie Cat</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Nibbler</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Rooster Rescue</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Worms</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Heart Bees</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Matriarchy Eggs</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Charlie Cat</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Nibbler</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Rooster Rescue</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Worms</a>
                         </div>
                     </div>
 
@@ -256,20 +244,30 @@
             </div>
         </div>
 
-        <main class="top-[102px] lg:top-[50px] relative">
+        <main class="relative">
 
-            <section id="hero" class="relative px-4 pt-36 pb-20 sm:pt-40 lg:pt-52 lg:pb-40 w-full bg-neutral-50">
-                <div class="max-w-screen-xl flex flex-col sm:flex-row justify-between items-center align-center sm:space-x-10 mx-auto">
-                    <div class="relative text-left flex-shrink w-full sm:w-1/2">
-                        <h1 class="text-4xl sm:text-5xl font-bold tracking-normal leading-tighter text-cyan-950 mb-12 sm:mb-16 lg:mb-18 text-serif-regular">Events at forEST</h1>
-                        <p class="text-2xl sm:text-3xl font-regular tracking-normal leading-snug sm:leading-tight lg:leading-snug text-cyan-950 mb-12 sm:mb-16 lg:mb-18">Learn about our upcoming farming events and discover family-friendly ways you can get invovled.</p>
-                        <div class="mt-14 text-left mx-auto space-x-2 sm:space-x-6 mb-14 sm:mb-0 ">
-                            <a href="#mailing-list"><button class="relative rounded-md pt-3 pb-4 px-3.5 text-2xl leading-6 transition-all hover:scale-[1.1] mx-auto inset-shadow-sm inset-shadow-indigo-500 shadow-lg bg-transparent dosis-extra-bold uppercase text-cyan-600 border-cyan-600 border-2">
-                                <span class="absolute inset-0" aria-hidden="true"></span>Subscribe
-                            </button></a>
+            <section id="event" class="relative px-4 pt-36 pb-20 sm:pt-40 lg:pt-52 lg:pb-40 w-full bg-amber-700">
+                <div class="relative isolate px-4 py-20 sm:px-10">
+                    <div class="mx-auto max-w-screen-xl text-center flex flex-col sm:flex-row justify-between items-center align-center sm:space-x-10 mx-auto">
+                        <div class="text-center flex-grow w-full sm:w-2/3">
+                            <h1 class="text-3xl sm:text-4xl lg:text-5xl dosis-extra-bold tracking-normal leading-snug sm:leading-tight lg:leading-snug text-white mb-6 sm:mb-10 lg:mb-10">Next Event at For Every Star, A Tree</h1>
+                            <p class="text-2xl sm:text-3xl font-regular tracking-normal leading-snug sm:leading-tight lg:leading-snug text-white mb-2">📅 Saturday, January 24<sup>th</sup></p>
+                            <p class="text-2xl sm:text-3xl font-regular tracking-normal leading-snug sm:leading-tight lg:leading-snug text-white mb-2">🪏 Volunteer Day (All Ages)</p>
+                            <p class="text-2xl sm:text-3xl font-regular tracking-normal leading-snug sm:leading-tight lg:leading-snug text-white mb-2"><strong>5</strong> Spots Left!</p>
+                            <p class="text-2xl sm:text-3xl font-regular tracking-normal leading-snug sm:leading-tight lg:leading-snug text-white mb-6 sm:mb-10 lg:mb-10">🎫 Price: Free</p>
+                            <div class="flex flex-col sm:flex-row gap-4 mt-14 text-left justify-center sm:justify-start items-center sm:items-center mb-14 sm:mb-0">
+                                <form data-gtm-form-interact-id="0" method="POST" name="contact" class="mx-auto text-center"><input type="hidden" name="form-name" value="contact">
+                                    <input type="text" name="volunteer-name" class="volunteer-name w-full flex-1 text mb-4 p-2 text rounded-2xl" data-gtm-form-interact-field-id="0" placeholder="Your Name *" style="border:1px solid gray">
+                                    <input type="email" name="volunteer-email" class="volunteer-email w-full flex-1 text mb-4 p-2 text rounded-2xl" placeholder="Your Email *" style="border:1px solid gray">
+                                    <button type="submit" class="relative rounded-md pt-3 pb-4 px-3.5 text-2xl leading-6 transition-all hover:scale-[1.1] mx-auto inset-shadow-sm inset-shadow-indigo-500 shadow-lg bg-white w-1/2 dosis-extra-bold uppercase text-cyan-600">Sign Up!</button>
+                                </form>
+                            </div>
                         </div>
+                        <video class="flex-shrink rounded-xl w-full sm:w-1/3" autoplay="" muted="" playsinline="" loop="">
+                            <source src="https://res.cloudinary.com/djrhjkkvm/video/upload/v1766972493/Videos/for-every-star-a-tree-volunteer-sunset_e2bsih.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
-                    <img src="https://res.cloudinary.com/djrhjkkvm/image/upload/v1739939152/Volunteers/student-teacher-for-every-star-a-tree_sqleus.png" class="flex-grow rounded-xl w-full sm:w-1/2" />
                 </div>
             </section>
 
