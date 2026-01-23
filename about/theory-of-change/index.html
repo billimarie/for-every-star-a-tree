@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>For Every Star, A Tree | Coming Soon | Nonprofit Farm in Los Angeles County</title>
+        <title>Our Theory Of Change | For Every Star, A Tree</title>
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -20,291 +20,9 @@
 
             gtag('config', 'G-H7RRMZ0D6T');
         </script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./favicon/favicon.ico">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
-            /* Google Fonts: Dosis */
-            .dosis-bold {
-                font-family: "Dosis", serif;
-                font-optical-sizing: auto;
-                font-weight: 600;
-                font-style: normal;
-            }
-            .dosis-extra-bold {
-                font-family: "Dosis", serif;
-                font-optical-sizing: auto;
-                font-weight: 700;
-                font-style: normal;
-            }
-            /* Google Fonts: Space Mono */
-            .space-mono-regular {
-                font-family: "Space Mono", serif;
-                font-weight: 400;
-                font-style: normal;
-            }
-            .space-mono-bold {
-                font-family: "Space Mono", serif;
-                font-weight: 700;
-                font-style: normal;
-            }
-            .space-mono-regular-italic {
-                font-family: "Space Mono", serif;
-                font-weight: 400;
-                font-style: italic;
-            }
-            .space-mono-bold-italic {
-                font-family: "Space Mono", serif;
-                font-weight: 700;
-                font-style: italic;
-            }
-            /* Google Font: Baskerville */
-            .text-serif-regular {
-                font-family: "Libre Baskerville", serif;
-                font-optical-sizing: auto;
-                font-weight: 400;
-                font-style: normal;
-            }
-            /* Credit: Manuel Pinto (https://codepen.io/P1N2O/pen/pyBNzX) */
-            .color-banner {
-                background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-                background-size: 400% 400%;
-                animation: gradient 15s ease infinite;
-            }
-
-                @keyframes gradient {
-                    0% {
-                        background-position: 0% 50%;
-                    }
-                    50% {
-                        background-position: 100% 50%;
-                    }
-                    100% {
-                        background-position: 0% 50%;
-                    }
-                }
-            /* Circular Counter */
-            .progress-container {
-                position: relative;
-                width: 150px;
-                height: 150px;
-                cursor: pointer;
-                opacity: 100%;
-                transition: transform 0.2s ease-in-out;
-            }
-            .progress-ring {
-                transform: rotate(-90deg);
-                transition: transform 0.7s ease-in-out;
-            }
-            circle {
-                fill: "#fff";
-                fill-opacity: 0;
-                transition: stroke-dashoffset 0.5s ease-in-out;
-                transition: fill .4s ease;
-                -webkit-filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .3));
-                filter: drop-shadow( -3px 3px 2px rgba(0, 0, 0, .3));
-            }
-            .progress-text {
-                display: none;
-                opacity: 0;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-size: 20px;
-                font-weight: bold;
-                color: #333;
-            }
-            .progress-container:active .progress-ring {
-                transform: scale(0.9) rotate(-90deg);
-            }
-            
-            /* Gamified hover animation */
-            .progress-container:hover {
-                transform: rotate(5deg);
-                opacity: 100%;
-            }
-            .progress-container:hover .progress-ring {
-                filter: drop-shadow(0px 0px 10px rgba(76, 175, 80, 0.8));
-                transform: rotate(360deg);
-                transition: transform .5s ease-in-out;
-            }
-            .progress-container:hover circle {
-                fill: #fff;
-                fill-opacity: 0.75;
-            }
-            .progress-container:hover .progress-text {
-                display: block;
-                opacity: 100%;
-            }
-
-            /* Pulse Button (Credit: https://codepen.io/giana/pen/BZaGyP) */
-            .pulse:hover,
-            .pulse:focus {
-            -webkit-animation: pulse 1s;
-                    animation: pulse 1s;
-            box-shadow: 0 0 0 2em transparent;
-            }
-
-            @-webkit-keyframes pulse {
-                0% {
-                    box-shadow: 0 0 0 0 var(--hover);
-                }
-            }
-
-            @keyframes pulse {
-                0% {
-                    box-shadow: 0 0 0 0 var(--hover);
-                }
-            }
-            .pulse {
-            --color: #23a6d5;
-            --hover: #23d5ab;
-            }
-
-            li a.pulse {
-            color: var(--color);
-            transition: 0.25s;
-            }
-            li a.pulse:hover, li a.pulse:focus {
-            border-color: var(--hover);
-            color: #fff;
-            }
-
-            li a.pulse {
-            background: linear-gradient(-45deg, #23a6d5, #23d5ab);
-            border: 2px solid;
-            color: #fff;
-            line-height: 1;
-            margin: 0.5em;
-            padding: .45em 0 .65em 0;
-            }
-
-            /* Social Proof Donation */
-            @keyframes slide-up-down {
-                0% { opacity: 0; transform: translateY(20px); }
-                10% { opacity: 1; transform: translateY(0); }
-                90% { opacity: 1; transform: translateY(0); }
-                100% { opacity: 0; transform: translateY(20px); }
-            }
-            .animate-slide-up-down {
-                animation: slide-up-down 5s ease-in-out forwards;
-            }
-
-            /* Confetti animation */
-            .confetti {
-                position: absolute;
-                width: 6px;
-                height: 6px;
-                background-color: #ffcc00;
-                opacity: 0.8;
-                border-radius: 50%;
-                animation: fall 1.5s linear forwards;
-            }
-            @keyframes fall {
-                to {
-                    transform: translateY(100vh) rotate(720deg);
-                    opacity: 0;
-                }
-            }
-
-            @media only screen and (max-width: 640px) {
-                h2 {
-                    margin-top: -60px !important;
-                }
-                .progress-text {
-                    display: block;
-                    opacity: 100%;
-                }
-                circle {
-                    fill: "#fff";
-                    fill-opacity: 100%;
-                }
-            }
-            
-            /* Donation Modal */
-            /* Progress Bar Transition */
-            .modal-progress-bar {
-                transition: width 0.3s ease-in-out;
-            }
-
-            /* Modal Overlay & Base (Keep your existing styles) */
-            .modal-overlay {
-                display: flex;
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.7);
-                justify-content: center;
-                align-items: center;
-                z-index: 50;
-
-                opacity: 0;
-                visibility: hidden;
-                transition: opacity 0.3s ease, visibility 0.3s ease;
-            }
-            .modal-overlay.visible {
-                opacity: 1;
-                visibility: visible;
-            }
-            .modal {
-                background: white;
-                width: 90%;
-                max-width: 600px; /* Limits width on big screens */
-                border-radius: 8px;
-                z-index: 51;
-                max-height: 90vh; /* Prevents it being too tall */
-                overflow-y: auto; /* Scroll inside modal if needed */
-                transform: scale(0.9);
-                transition: transform 0.3s ease;
-            }
-            .modal-overlay.visible .modal {
-                transform: scale(1);
-            }
-            /* Satellite Timelapse */
-            .timelapse-container {
-                position: relative;
-                width: 100%;
-                max-width: 900px;
-                margin: auto;
-                aspect-ratio: 16 / 9;
-                overflow: hidden;
-                border-radius: 16px;
-                box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-            }
-
-            .timelapse-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            }
-
-            .year-label {
-                position: absolute;
-                top: 20px;
-                right: 20px;
-                z-index: 10;
-                background: rgba(0, 0, 0, 0.6);
-                color: white;
-                font-weight: 600;
-                letter-spacing: 1px;
-            }
-            /* Smooth zoom on final frame */
-            .timelapse-container img {
-                transition:
-                    opacity 1.2s ease,
-                    transform 6s ease;
-                transform-origin: center center;
-            }
-
-            /* Applied only to final frame */
-            .timelapse-container img.zoom-final {
-                transform: scale(1.25);
-            }
-
-        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./favicon/favicon.ico" />
+        <link href="/styles.css" rel="stylesheet" />
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="overflow-x-hidden">
@@ -459,7 +177,7 @@
                             
                             <button class="category-btn border-2 border-gray-200 py-3 rounded-lg hover:border-cyan-600 hover:text-cyan-700 font-bold transition" 
                                 data-type="link" 
-                                data-url="./earthworkers/">
+                                data-url="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true">
                                 People
                             </button>
 
@@ -487,33 +205,33 @@
                         <h3 id="subTitle" class="text-3xl text-center text-cyan-950 font-bold mb-6">Fantastic! You can help fund the following:</h3>
                         
                         <div id="food-forest" class="sub-options hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <a href="https://link-to-veg.com" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Vegetables</a>
-                            <a href="https://link-to-fruit.com" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Fruits</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Vegetables</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Fruits</a>
                         </div>
 
                         <div id="regeneration" class="sub-options hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Irrigation</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Compost</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Worms</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Beehives</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Native Plants</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Butterfly Garden</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Irrigation</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Compost</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Worms</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Beehives</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Native Plants</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Butterfly Garden</a>
                         </div>
 
                         <div id="structures" class="sub-options hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Starry Night Skoolie</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Fencing</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Compost Toilet</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Shade</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Starry Night Skoolie</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Fencing</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Compost Toilet</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Shade</a>
                         </div>
 
                         <div id="animals" class="sub-options hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Heart Bees</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Matriarchy Eggs</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Charlie Cat</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Nibbler</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Rooster Rescue</a>
-                            <a href="#" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Worms</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Heart Bees</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Matriarchy Eggs</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Charlie Cat</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Nibbler</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Rooster Rescue</a>
+                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="block w-full text-center border-2 border-cyan-100 py-3 rounded hover:bg-cyan-50 text-cyan-800 font-semibold">Worms</a>
                         </div>
                     </div>
 
@@ -521,30 +239,58 @@
             </div>
         </div>
 
-        <main class="top-[102px] lg:top-[50px] relative">
+        <main class="relative">
 
-            <section id="hero" class="relative px-4 py-40 xl:px-0 w-full bg-neutral-50">
-                <div class="max-w-screen-xl flex flex-col sm:flex-row justify-between items-center align-center sm:space-x-10 mx-auto">
-                    <div class="relative text-left flex-shrink w-full sm:w-1/2">
-                        <h2 class="text-4xl sm:text-5xl font-bold tracking-normal leading-tighter text-cyan-950 mb-12 sm:mb-16 lg:mb-18 text-serif-regular">Coming Soon.</h2>
-                        <p class="text-2xl sm:text-3xl font-regular tracking-normal leading-snug sm:leading-tight lg:leading-snug text-cyan-950 mb-12 sm:mb-16 lg:mb-18">This page is currently under construction. Hope to see you, soon!</p>
-                        <div class="mt-14 text-left mx-auto space-x-2 sm:space-x-6 mb-14 sm:mb-0 ">
-                            <button class="open-modal relative rounded-md pt-3 pb-4 px-3.5 text-2xl leading-6 transition-all hover:scale-[1.1] mx-auto inset-shadow-sm inset-shadow-indigo-500 shadow-lg bg-transparent dosis-extra-bold uppercase text-cyan-600 border-cyan-600 border-2">
-                                <span class="absolute inset-0" aria-hidden="true"></span>Support Our Work
-                            </button>
+            <!-- HERO -->
+            <section id="hero" class="relative px-4 pt-36 pb-20 sm:pt-40 lg:pt-52 lg:pb-40 w-full bg-neutral-50">
+                <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 items-center">
+                    
+                    <div class="order-1 md:col-start-1 md:row-start-1">
+                        <h1 class="text-4xl lg:text-5xl text-cyan-950 dosis-extra-bold leading-tight">
+                            Our Theory Of Change
+                        </h1>
+                    </div>
+            
+                    <div class="order-3 md:order-2 md:col-start-1 md:row-start-2 text-cyan-950">
+                        <div class="space-y-6 text-xl md:text-2xl leading-snug">
+                            <p>
+                                <em>For Every Star, A Tree</em> exists because of this problem:
+                            </p>
+                            <p>
+                                The lack of <strong>Tree Canopy</strong> (shade) and <strong>Green Space</strong> (access) in Los Angeles' Antelope Valley.
+                            </p>
+                            <p>
+                                The people we immediately serve are the residents in Hi Vista (East Lancaster). We also serve residents of the greater Los Angeles county area who are looking for climate action community, shared purpose, and positive impact.
+                            </p>
+                            <p>
+                                Our mission is to restore desertified Earth. We do this by cultivating healthier soil, increasing biodiversity, and improving access to greener community spaces.
+                            </p>
+                            <p>
+                                Measurable outputs and outcomes include: mental health regarding climate change (aka "climate anxiety"), shade, temperature, tree canopy, number of volunteers, number of visitors, and number of guests.
+                            </p>
+                            <p>
+                                Our vision is to grow an entire 10-acre oasis for future generations, and one day create a "constellation" of Tiny Forests scattered across the desert.
+                            </p>
                         </div>
                     </div>
-                    <img src="https://res.cloudinary.com/djrhjkkvm/image/upload/v1769172174/Flowers/lets-plant-a-forest_for-every-star-a-tree_native-miyawaki-forest_mojave-desert_t2l360_bo5nzl.jpg" class="flex-grow rounded-xl w-full sm:w-1/2" />
+            
+                    <div class="order-2 md:order-none md:col-start-2 md:row-span-3">
+                        <img 
+                            src="https://res.cloudinary.com/djrhjkkvm/image/upload/v1754947569/Blog/for-every-star-a-tree_sisterhood-underneath-the-stars_hsauny.jpg" 
+                            alt="Volunteer Earthworker Day and Bioblitz"
+                            class="rounded-xl w-full object-cover shadow-md mx-auto" 
+                        />
+                    </div>
                 </div>
             </section>
 
             <!-- GLOBAL COMMUNITY -->
             <section id="mailing-list" class="relative px-4 py-20 xl:px-0 w-full bg-amber-500">
                 <div class="max-w-screen-xl flex flex-col sm:flex-row justify-between items-center align-center sm:space-x-10 mx-auto">
-                    <p class="text-3xl sm:text-4xl lg:text-5xl text-serif-regular font-bold tracking-normal leading-snug sm:leading-tight lg:leading-snug text-cyan-950 mb-6 sm:mb-10 lg:mb-10">Subscribe to our newsletter</p>
+                    <p class="text-center sm:text-left text-3xl sm:text-4xl lg:text-5xl text-serif-regular font-bold tracking-normal leading-snug sm:leading-tight lg:leading-snug text-cyan-950 mb-6 sm:mb-10 lg:mb-10">Join our community of Earthworkers</p>
                     <div class="flex flex-col sm:flex-row justify-between w-full items-center align-center space-x-2 sm:space-x-4">
                         <!-- Mailing List Form -->
-                        <div id="mc_embed_shell" class="sm:text-2xl sm:w-4/5 lg:text-3xl lg:w-2/3 mx-auto px-4 py-6">
+                        <div id="mc_embed_shell" class="sm:text-2xl w-full md:w-4/5 lg:text-3xl lg:w-2/3 mx-auto px-4 py-6">
                             <div id="mc_embed_signup">
                                 <form action="https://billimarie.us11.list-manage.com/subscribe/post?u=02418f204ebb4def99a9fd060&amp;id=8d681942cc&amp;f_id=00bebfe0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                                     <div id="mc_embed_signup_scroll">
@@ -576,40 +322,40 @@
         </main>
 
         <footer class="bg-slate-200">
-            <div class="relative isolate py-20 px-4 sm:px-10 xl:px-0 lg:pt-40 lg:pb-0">
+            <div class="relative py-20 px-4 sm:px-10 xl:px-0 lg:pt-40 lg:pb-0">
                 <div class="mx-auto w-full max-w-screen-xl">
                     <div class="grid grid-cols-2 gap-8 py-6 lg:py-8 md:grid-cols-4">
                         <div>
                             <p class="mb-6 text-lg font-semibold uppercase" style="color: #3476cc;">About</p>
                             <ul class="text-gray-700">
                                 <li class="mb-4">
-                                    <a href="./about.html" class=" hover:underline">Mission</a>
+                                    <a href="/about/" class=" hover:underline">Mission</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="./people.html" class="hover:underline">People</a>
+                                    <a href="/earthworkers/" class="hover:underline">People</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="./partner.html" class="hover:underline">Partners</a>
+                                    <a href="/partner/" class="hover:underline">Partners</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="https://medium.com/flow-the-desert" class="hover:underline">Blog</a>
+                                    <a href="/blog/" class="hover:underline">Blog</a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <p class="mb-6 text-lg font-semibold uppercase" style="color: #3476cc;"><a href="./get-involved.html">Get Involved</a></p>
+                            <p class="mb-6 text-lg font-semibold uppercase" style="color: #3476cc;"><a href="/get-involved/">Get Involved</a></p>
                             <ul class="text-gray-700">
                                 <li class="mb-4">
-                                    <a href="https://mailchi.mp/48df6918e3d3/volunteer-for-regrow-la" target="_blank" class="hover:underline">Volunteer</a>
+                                    <a href="/volunteer/" target="_blank" class="hover:underline">Volunteer</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="./plant-a-tree.html" class="hover:underline">Plant a Tree!</a>
+                                    <a href="/campaigns/plant-a-tree/" class="hover:underline">Plant a Tree!</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="https://www.zeffy.com/en-US/peer-to-peer/9ea601a3-0065-432b-aa32-56b89fdca4fb" class="hover:underline">Save the Monarch Butterfly</a>
+                                    <a href="/campaigns/monarch-migration-walk/" class="hover:underline">Monarch Migration Walk</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="./toolkit.html" class="hover:underline">Toolkit</a>
+                                    <a href="/csa/" class="hover:underline">CSA Box</a>
                                 </li>
                             </ul>
                         </div>
@@ -623,7 +369,7 @@
                                     <a href="https://docs.google.com/document/d/1kTJvkRKV1aKINLy9s8shOmOKh-Gm9Dk5yCkxcgMyKVo/edit?usp=sharing" target="_blank" class="hover:underline">Financial Report (2025)</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="./coming-soon.html" class="hover:underline">TBD</a>
+                                    <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="hover:underline">Tax-Deductible Donation</a>
                                 </li>
                                 <li class="mb-4">
                                     <a target="_blank" href="https://us11.list-manage.com/contact-form?u=02418f204ebb4def99a9fd060&form_id=b1a5ce6811fa09aeb88d8232d11ace2d" class="hover:underline">Contact</a>
@@ -645,31 +391,46 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="mx-auto px-4 py-6 grid grid-cols-1 text-center justify-center">
+                    <div class="mx-auto px-4 py-6 grid grid-cols-2 text-center justify-center w-full" style="max-width: 400px;">
                         <a href="https://www.guidestar.org/profile/shared/ba6f4c7a-e606-461c-9cc2-d931d83675de" target="_blank" class="w-32 max-w-32 inline-block mx-auto text-center">
-                            <img src="https://res.cloudinary.com/djrhjkkvm/image/upload/v1740124285/Logos/for-every-star-a-tree_candid-seal-silver-2024_ylce2q.png" />
+                            <img src="https://res.cloudinary.com/djrhjkkvm/image/upload/v1740124285/Logos/for-every-star-a-tree_candid-seal-silver-2024_ylce2q.png">
                         </a>
+                        <a href="https://app.candid.org/profile/15433332/for-every-star-a-tree-inc-92-2164539/?pkId=1f3bb6cf-301f-4c8c-8962-837137964b49" target="_blank" class="w-32 max-w-32 inline-block mx-auto text-center"> 
+                            <img src="https://widgets.guidestar.org/prod/v1/pdp/transparency-seal/15433332/svg" width="125px"> </a>
                     </div>
                 </div>
                 <div class="py-6 px-1 text-center mx-auto">
-                    <p class="text-gray-600 text-sm mb-10">© 2023 - 2026 For Every Star, A Tree. All Rights Reserved.<br /><br />Terms & Conditions. Privacy Policy.</p>
+                    <p class="text-gray-600 text-sm mb-10">&copy; 2023 - 2026 For Every Star, A Tree. All Rights Reserved.<br /><br /><a href="#" class="underline">Terms & Conditions</a>. <a href="#" class="underline">Privacy Policy</a>.</p>
                     <p class="mb-10 sm:mb-20 md:mb-30"><a href="#" class="text-sm font-semibold leading-8 text-gray-6000">Back to Top</a></p>
                 </div>
             </div>
         </footer>
 
         <!-- SOCIAL PROOF DONATION POP-UP -->
-        <div id="donation-popup" class="z-50 animate-slide-up-down hidden fixed bottom-0 max-w-2/3 sm:max-w-2/3 flex flex-wrap p-4 bg-gray-50 shadow-md border rounded-md m-4">
-            <a class="absolute w-full h-full top-0 left-0" href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d" target="_blank"></a>
-            <div class="flex items-center">
-                <div class="text-left grow">
-                    <p id="donation-message" class="text-gray-600 text-sm sm:text-xl lg:text-1xl"><span class="font-semibold">Marley F.</span> donated $50 on <span class="font-semibold">Indy's</span> behalf.</p>
-                </div>
-                <div class="text-right shrink pl-4">
-                    <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="inline-flex items-center px-3 py-2 text-white dosis-extra-bold uppercase text-sm sm:text-xl lg:text-1xl text-center rounded-lg color-banner">Donate</a>
+            <div id="donation-popup" class="z-50 animate-slide-up-down hidden fixed bottom-0 max-w-2/3 sm:max-w-2/3 flex flex-wrap p-4 bg-gray-50 shadow-md border rounded-md m-4">
+                <a class="absolute w-full h-full top-0 left-0" href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank"></a>
+                <div class="flex items-center">
+                    <div class="text-left grow">
+                        <p id="donation-message" class="text-gray-600 text-sm sm:text-xl lg:text-1xl"><span class="font-semibold">Cara Lopez Lee</span> raised $555 for the Tiny Forest!</p>
+                    </div>
+                    <div class="text-right shrink pl-4">
+                        <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="inline-flex items-center px-3 py-2 text-white dosis-extra-bold uppercase text-sm sm:text-xl lg:text-1xl text-center rounded-lg color-banner">Donate</a>
+                    </div>
                 </div>
             </div>
-        </div>
+
+        <!-- FUNDRAISING CIRCLE 
+        <div id="fundraising" class="progress-container fixed bottom-0 right-0 z-50 m-2">
+            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank">
+                <div class="progress-container" id="progress-container">
+                    <svg class="progress-ring" width="150" height="150">
+                        <circle cx="75" cy="75" r="60" fill="#fff" fill-opacity="0" stroke="#e0e0e0" stroke-width="10" />
+                        <circle id="progress-bar" cx="75" cy="75" r="60" fill="none" stroke="#4caf50" stroke-width="10" stroke-linecap="round" stroke-dasharray="377" stroke-dashoffset="377"/>
+                    </svg>
+                    <div class="progress-text text-sm text-center"><span id="progress-text">0%</span> raised<br /><span class="text-xs">of $20K goal</span></div>
+                </div>
+            </a>
+        </div> -->
 
         <script type="text/javascript">
             /*=======
