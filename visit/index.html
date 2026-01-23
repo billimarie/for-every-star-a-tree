@@ -230,359 +230,114 @@
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWCFCVR6"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-            <!-- End Google Tag Manager (noscript) -->
+        <!-- End Google Tag Manager (noscript) -->
         
-        <header id="#" class="fixed inset-x-0 top-0 z-50 bg-slate-50 shadow-md">
-            <nav class="relative flex items-center justify-between py-3 px-4 xl:px-0 max-w-screen-xl mx-auto">
-                <!-- TITLE -->
-                <a href="./"><h1 class="text-xl text-gray-600 dosis-extra-bold uppercase tracking-wider" style="background: linear-gradient(to right, #0891b2, #0d9488); background: -webkit-linear-gradient(to right, #0891b2, #0d9488);
-                        -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height:1.1;">For Every Star, A Tree.</h1></a>
-                <!-- MOBILE MENU -->
-                <div id="mobileMenuButtons" class="inline-flex lg:hidden">
-                    <!-- OPEN MENU -->
-                    <button id="openButton" class="right-0 py-2 pl-4 sm:pl-6 lg:pl-10 transition-colors focus:outline-none disabled:opacity-50 disabled:pointer-events-none" href="javascript:void(0)" onclick="openMenu()">
-                        <svg class="w-10 h-10 text-gray-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M3 6h18M3 12h18M3 18h18"></path>
+        <header id="#" class="w-full fixed top-0 w-full z-50 shadow-md bg-stone-50 inset-x-0 border-b border-gray-200 transition-all duration-300 backdrop-blur-xl z-50 ">
+            <div class="max-w-screen-xl mx-auto relative flex items-center justify-between py-3 px-4 xl:px-0 space-x-2 lg:space-x-0">
+                <!-- LOGO -->
+                <div class="flex-shrink">
+                    <a href="/" class="flex items-center justify-start gap-2.5">
+                        <img src="https://res.cloudinary.com/djrhjkkvm/image/upload/v1768082276/Logos/forEST-logo_rj0uz6.png" class="h-16 w-16 lg:h-20 lg:w-20 p-1 pl-0 ml-[-3px] rounded-xl" />
+                        <h1 class="hidden sm:block sm:text-lg lg:w-16 text-slate-600 font-dosis-bold tracking-wider hover:text-cyan-700 transition-all duration-300" style="line-height:0.8;">for every star a tree</h1>
+                    </a>
+                </div>
+
+                <!-- DONATE -->
+                <div class="flex-grow text-right items-center justify-end lg:hidden">
+                    <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="text-xl text-cyan-600 rounded-xl py-1 px-2 hover:scale-[1.1] transition-all duration-300 dosis-extra-bold uppercase border-cyan-600 border-2">Donate</a>                      
+                </div>
+
+                <!-- MOBILE HAMBURGER -->
+                <div class="flex-shrink lg:hidden">
+                    <button id="openButton" class="p-2 pl-0 -mr-2 text-gray-500 active:bg-gray-100 rounded-full transition" onclick="openMenu()">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
                         </svg>
                     </button>
-                    <!-- CLOSE MENU -->
-                    <button id="closeButton" class="absolute hidden right-0 py-2 pr-0 transition-colors focus:outline-none disabled:opacity-50 disabled:pointer-events-none" style="top: -15px;" onclick="closeMenu()">
-                        <a href="javascript:void(0)" class="text-7xl font-light duration-300" style="color: #4b5563;">×</a>
+                    <button id="closeButton" class="hidden absolute top-0 right-4 p-2 pr-0 pt-3 transition-colors focus:outline-none disabled:opacity-50 disabled:pointer-events-none" onclick="closeMenu()">
+                        <a href="javascript:void(0)" class="text-4xl font-light duration-300" style="color: #4b5563;">×</a>
                     </button>
                 </div>
+
                 <!-- DESKTOP MENU -->
-                <ul class="hidden lg:inline-flex space-x-10">
-                    <li class="list-none inline-flex"><a href="./about.html" class="text-xl text-gray-600 dosis-extra-bold uppercase">Who We Are</a></li>
-                    <li class="list-none inline-flex"><a href="./about.html" class="text-xl text-gray-600 dosis-extra-bold uppercase">Programs</a></li>
-                    <li class="list-none inline-flex"><a href="./people.html" class="text-xl text-gray-600 dosis-extra-bold uppercase">Team</a></li>
-                    <li class="list-none inline-flex"><a href="./visit.html" class="text-xl text-gray-600 dosis-extra-bold uppercase">Visit</a></li>
-                    <li class="list-none inline-flex"><a href="./volunteer.html" class="text-xl text-gray-600 dosis-extra-bold uppercase">Volunteer</a></li>
-                    <li class="list-none inline-flex"><a href="https://www.zeffy.com/donation-form/38db6262-062a-4218-8fa9-5c32dfb16cdb" target="_blank" class="text-xl text-gray-600 dosis-extra-bold uppercase" style="background: linear-gradient(to right, #0891b2, #0d9488); background: -webkit-linear-gradient(to right, #0891b2, #0d9488);
-                        -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Donate</a></li>
-                </ul>
-            </nav>
-            <!-- MOBILE MENU -->
-            <div id="menu" class="lg:hidden fixed z-40 flex justify-center items-start duration-700 overflow-hidden absolute w-0 h-0 opacity-0 top-20 left-0" style="background-color: #eff3f6">
-                <ul id="mainMenu" class="text-center w-full sm:w-1/2 space-y-4" style="position: absolute; top: 30%; transform: translateY(-30%);">
-                    <li>
-                        <a href="#" onclick="aboutMenuOpen()" class="block hover:text-teal-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold w-full">
-                            Who We Are &raquo;
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" onclick="programMenuOpen()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Our Programs &raquo;
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" onclick="teamMenuOpen()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Meet the Team &raquo;
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" onclick="visitMenuOpen()" class="block hover:text-teal-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Visit &raquo;
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" onclick="joinMenuOpen()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Join &raquo;
-                        </a>
-                    </li>
-                    <li class="ctaButton">
-                        <a href="https://www.zeffy.com/donation-form/38db6262-062a-4218-8fa9-5c32dfb16cdb" target="_blank" class="pulse block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Donate
-                        </a>
-                    </li>
-                </ul>
-                <ul id="aboutMenu" class="text-center space-y-4 w-0 h-0 opacity-0 hidden translate-x-full" style="position: absolute; top: 30%; transform: translateY(-30%);">
-                    <li>
-                        <a href="#" onclick="aboutMenuClose()" class="block duration-300 px-3.5 pt-3 pb-4 list-none text-gray-400 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            &laquo; Back
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./about.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Mission
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/flow-the-desert" target="_blank" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./people.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            People
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./partner.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Partners
-                        </a>
-                    </li>
-                    <li class="ctaButton">
-                        <a href="https://www.zeffy.com/donation-form/38db6262-062a-4218-8fa9-5c32dfb16cdb" target="_blank" class="pulse block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Donate
-                        </a>
-                    </li>
-                </ul>
-                <ul id="programMenu" class="text-center space-y-4 w-0 h-0 opacity-0 hidden translate-x-full" style="position: absolute; top: 30%; transform: translateY(-30%);">
-                    <li>
-                        <a href="#" onclick="programMenuClose()" class="block duration-300 px-3.5 pt-3 pb-4 list-none text-gray-400 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            &laquo; Back
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./plants.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Pollinator Habitat
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./plants.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Food Rescue
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./plants.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Eco-Toilet
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./earthworkers/" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Solar Energy
-                        </a>
-                    </li>
-                    <li class="ctaButton">
-                        <a href="https://www.zeffy.com/donation-form/38db6262-062a-4218-8fa9-5c32dfb16cdb" target="_blank" class="pulse block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Donate
-                        </a>
-                    </li>
-                </ul>
-                <ul id="teamMenu" class="text-center space-y-4 w-0 h-0 opacity-0 hidden translate-x-full" style="position: absolute; top: 30%; transform: translateY(-30%);">
-                    <li>
-                        <a href="#" onclick="teamMenuClose()" class="block duration-300 px-3.5 pt-3 pb-4 list-none text-gray-400 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            &laquo; Back
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./get-involved.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Volunteers
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./earthworkers/" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Earthworkers
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./advisors/" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Advisors
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./board/" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Board
-                        </a>
-                    </li>
-                    <li class="ctaButton">
-                        <a href="https://www.zeffy.com/donation-form/38db6262-062a-4218-8fa9-5c32dfb16cdb" target="_blank" class="pulse block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Donate
-                        </a>
-                    </li>
-                </ul>
-                <ul id="visitMenu" class="text-center space-y-4 w-0 h-0 opacity-0 hidden translate-x-full" style="position: absolute; top: 30%; transform: translateY(-30%);">
-                    <li>
-                        <a href="#" onclick="visitMenuClose()" class="block duration-300 px-3.5 pt-3 pb-4 list-none text-gray-400 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            &laquo; Back
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./visit.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Tour
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://mailchi.mp/48df6918e3d3/volunteer-for-regrow-la" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Volunteer
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./starry-night-skoolie/" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Starry Night Skoolie
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./partner.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Host An Event
-                        </a>
-                    </li>
-                    <li class="ctaButton">
-                        <a href="https://www.zeffy.com/donation-form/38db6262-062a-4218-8fa9-5c32dfb16cdb" target="_blank" class="pulse block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Donate
-                        </a>
-                    </li>
-                </ul>
-                <ul id="joinMenu" class="text-center space-y-4 w-0 h-0 opacity-0 hidden translate-x-full" style="position: absolute; top: 30%; transform: translateY(-30%);">
-                    <li>
-                        <a href="#" onclick="joinMenuClose()" class="block duration-300 px-3.5 pt-3 pb-4 list-none text-gray-400 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            &laquo; Back
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./about.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Sign Up
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://mailchi.mp/48df6918e3d3/volunteer-for-regrow-la" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Volunteer
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./about.html" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Food Scraps to Soil
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./earthworkers/" onclick="closeMenu()" class="block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Become an Earthworker
-                        </a>
-                    </li>
-                    <li class="ctaButton">
-                        <a href="https://www.zeffy.com/donation-form/38db6262-062a-4218-8fa9-5c32dfb16cdb" target="_blank" class="pulse block hover:text-blue-600 duration-300 px-3.5 pt-3 pb-4 list-none text-gray-600 text-2xl sm:text3xl md:text-5xl font-semibold">
-                            Donate
-                        </a>
-                    </li>
-                </ul>
+                <nav class="hidden lg:flex lg:flex-col lg:items-end lg:space-y-1">
+                    <ul class="hidden lg:inline-flex space-x-6 items-center">
+                        <li class="list-none inline-flex"><a href="/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Home</a></li>
+                        <li class="list-none inline-flex"><a href="/about/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">About</a></li>
+                        <li class="list-none inline-flex"><a href="/volunteer/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Volunteer</a></li>
+                        <li class="list-none inline-flex"><a href="/book-your-stay/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Book Your Stay</a></li>
+                        <li class="list-none inline-flex"><a href="/blog/" class="text-xl text-cyan-900 hover:text-cyan-600 transition-all duration-300 dosis-extra-bold uppercase">Blog</a></li>
+                        <li class="list-none inline-flex"><a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="text-xl text-cyan-600 rounded-xl py-1 px-2 hover:scale-[1.1] transition-all duration-300 dosis-extra-bold uppercase border-cyan-600 border-2">Donate</a></li>
+                    </ul>
+                    <ul class="flex flex-row justify-end">
+                        <li><a class="block rounded-xl bg-transparent p-2 text-cyan-950 hover:text-amber-600 transition-all duration-300" target="_blank" rel="noreferrer" href="https://www.amazon.com/hz/wishlist/ls/3BVN43L3HBKD5?ref_=wl_share" title="Amazon Wishlist"><svg role="img" xmlns="http://www.w3.org/2000/svg" aria-label="" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"></path></svg><span class="sr-only">Open For Every Star, A Tree's <!-- -->Amazon Wishlist</span></a></li>
+                        <li><a class="block rounded-xl bg-transparent p-2 text-cyan-950 hover:text-amber-600 transition-all duration-300" target="_blank" rel="noreferrer me" href="https://www.twitch.tv/foreverystaratree" title="For Every Star, A Tree - Twitch.tv"><svg role="img" xmlns="http://www.w3.org/2000/svg" aria-label="" width="24" height="24" viewBox="0 0 512 512"><path fill="currentColor" d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"></path></svg><span class="sr-only">Open For Every Star, A Tree's <!-- -->Twitch.tv</span></a></li>
+                        <li><a class="block rounded-xl bg-transparent p-2 text-cyan-950 hover:text-amber-600 transition-all duration-300" href="/blog/why-we-dont-have-social-media/" title="Instagram"><svg role="img" xmlns="http://www.w3.org/2000/svg" aria-label="" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a></li>
+                        <li><a class="block rounded-xl bg-transparent p-2 text-cyan-950 hover:text-amber-600 transition-all duration-300" target="_blank" rel="noreferrer me" href="https://x.com/everystaratree" title="X (Twitter)"><svg role="img" xmlns="http://www.w3.org/2000/svg" aria-label="" width="24" height="24" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg><span class="sr-only">Open For Every Star, A Tree's <!-- -->X (Twitter)</span></a></li>
+                        <li><a class="block rounded-xl bg-transparent p-2 text-cyan-950 hover:text-amber-600 transition-all duration-300" href="/blog/why-we-dont-have-social-media/" title="Facebook"><svg role="img" xmlns="http://www.w3.org/2000/svg" aria-label="" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a></li>
+                        <li><a class="block rounded-xl bg-transparent p-2 text-cyan-950 hover:text-amber-600 transition-all duration-300" target="_blank" rel="noreferrer me" href="https://www.tiktok.com/@foreverystaratree" title="TikTok"><svg role="img" xmlns="http://www.w3.org/2000/svg" aria-label="" width="24" height="24" viewBox="0 0 448 512"><path fill="currentColor" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"></path></svg><span class="sr-only">Open For Every Star A Tree's <!-- -->TikTok</span></a></li>
+                        <li><a class="block rounded-xl bg-transparent p-2 text-cyan-950 hover:text-amber-600 transition-all duration-300" target="_blank" rel="noreferrer me" href="https://www.youtube.com/@foreverystaratree" title="YouTube"><svg role="img" xmlns="http://www.w3.org/2000/svg" aria-label="" width="24" height="24" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg><span class="sr-only">Open For Every Star, A Tree's <!-- -->YouTube</span></a></li>
+                    </ul>
+                </nav>
             </div>
-
-            <script type="text/javascript">
-                /* REFACTOR MENU TOGGLE LATER */
-                var menu = document.getElementById("menu"),
-                    mainMenu = document.getElementById("mainMenu"),
-                    aboutMenu = document.getElementById("aboutMenu"),
-                    programMenu = document.getElementById("programMenu"),
-                    teamMenu = document.getElementById("teamMenu"),
-                    visitMenu = document.getElementById("visitMenu"),
-                    screen = document.getElementsByTagName("body")[0],
-                    openButton = document.getElementById("openButton"),
-                    closeButton = document.getElementById("closeButton"),
-
-                    banner = document.getElementById("banner"),
-                    closeBannerBtn = document.getElementById("closeBannerBtn"),
-                    counter = 50,
-                    c = 0;
-
-                function openMenu() {
-                    menu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    menu.classList.add("w-screen", "h-screen", "opacity-95");
-                    screen.classList.add("overflow-hidden");
-                    openButton.classList.add("opacity-0");
-                    closeButton.classList.remove("hidden");
-                }
-                function closeMenu() {
-                    menu.classList.remove("w-screen", "h-screen", "opacity-95");
-                    menu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    screen.classList.remove("overflow-hidden");
-                    openButton.classList.remove("opacity-0");
-                    closeButton.classList.add("hidden");
-                }
-
-                function aboutMenuOpen() {
-                    aboutMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    aboutMenu.classList.add("w-full", "sm:w-1/2");
-                    mainMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.remove("w-full", "sm:w-1/2");
-                }
-                function aboutMenuClose() {
-                    aboutMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    aboutMenu.classList.remove("w-full");
-                    mainMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.add("w-full", "sm:w-1/2");
-                }
-
-                function programMenuOpen() {
-                    programMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    programMenu.classList.add("w-full", "sm:w-1/2");
-                    mainMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.remove("w-full", "sm:w-1/2");
-                }
-                function programMenuClose() {
-                    programMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    programMenu.classList.remove("w-full", "sm:w-1/2");
-                    mainMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.add("w-full", "sm:w-1/2");
-                }
-
-                function teamMenuOpen() {
-                    teamMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    teamMenu.classList.add("w-full", "sm:w-1/2");
-                    mainMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.remove("w-full", "sm:w-1/2");
-                }
-                function teamMenuClose() {
-                    teamMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    teamMenu.classList.remove("w-full", "sm:w-1/2");
-                    mainMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.add("w-full", "sm:w-1/2");
-                }
-
-                function visitMenuOpen() {
-                    visitMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    visitMenu.classList.add("w-full", "sm:w-1/2");
-                    mainMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.remove("w-full", "sm:w-1/2");
-                }
-                function visitMenuClose() {
-                    visitMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    visitMenu.classList.remove("w-full", "sm:w-1/2");
-                    mainMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.add("w-full", "sm:w-1/2");
-                }
-
-                function joinMenuOpen() {
-                    joinMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    joinMenu.classList.add("w-full", "sm:w-1/2");
-                    mainMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.remove("w-full", "sm:w-1/2");
-                }
-                function joinMenuClose() {
-                    joinMenu.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                    joinMenu.classList.remove("w-full", "sm:w-1/2");
-                    mainMenu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
-                    mainMenu.classList.add("w-full", "sm:w-1/2");
-                }
-
-                function closeBanner() {
-                    banner.classList.add("w-0", "h-0", "opacity-0", "hidden");
-                }
-
-                /* Fundraising Circle */
-                var counter = 50,
-                    c = 0;
-                var i = setInterval(function () {
-                    var counterSpan = document.querySelector("#counter span");
-                    var counterDiv = document.querySelector("#counter");
-
-                    if (counterSpan) {
-                        counterSpan.textContent = c + "%";
-                    }
-
-                    if (counterDiv) {
-                        counterDiv.style.background = `linear-gradient(to right, #f60d54 ${c}%, #0d0d0d ${c}%)`;
-                    }
-
-                    c++;
-                    counter++;
-
-                    if (counter === 101) {
-                        clearInterval(i);
-                    }
-                }, 50);
-
-            </script>
         </header>
+
+        <!-- MOBILE MENU -->
+        <div id="menu" class="lg:hidden fixed z-40 flex justify-start items-start duration-700 overflow-hidden top-30 left-0 w-0 h-0 opacity-0 hidden">
+            <div class="z-0 absolute w-full h-full" style="background-color: rgba(0,0,0,0.75)"></div>
+            <ul id="mainMenu" class="top-6 relative bg-slate-50 text-left text-slate-600 text-md w-2/3 sm:w-1/2 space-y-2 pt-20 pl-2 pb-20 h-screen overflow-y-scroll">
+                <li class="border-1 border-b border-slate-400 mx-4 my-2">
+                    <a href="/" class="flex justify-between items-center w-full text-left hover:text-blue-600 duration-300 px-3.5 pt-3 pb-2 pl-0 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3">
+                        Home
+                    </a>
+                </li>
+                <li class="border-1 border-b border-slate-400 mx-4 my-2">
+                    <button onclick="toggleAccordion('about-menu', this)" class="flex justify-between items-center w-full text-left hover:text-teal-600 duration-300 px-3.5 pt-3 pb-2 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3 pl-0">
+                        About Us
+                        <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <ul id="about-menu" class="pl-3.5 text-slate-500 space-y-2 pb-2 hidden">
+                        <li><a href="/about/" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-regular">What Is For Every Star, A Tree?</a></li>
+                        <li><a href="/about#mission" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-regular">Mission</a></li>
+                        <li><a href="/about/ethos/" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-regular">Ethos</a></li>
+                        <li><a href="/about/history/" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-regular">History</a></li>
+                        <li><a href="/about#team" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-regular">Team</a></li>
+                    </ul>
+                </li>
+                <li class="border-1 border-b border-slate-400 mx-4 my-2">
+                    <a href="/volunteer/" class="flex justify-between items-center w-full text-left hover:text-blue-600 duration-300 px-3.5 pt-3 pb-2 pl-0 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3">
+                        Volunteer
+                    </a>
+                </li>
+                <li class="border-1 border-b border-slate-400 mx-4 my-2">
+                    <button onclick="toggleAccordion('school-menu', this)" class="flex justify-between items-center w-full text-left hover:text-teal-600 duration-300 px-3.5 pt-3 pb-2 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3 pl-0">
+                        Book Your Stay
+                        <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <ul id="school-menu" class="pl-3.5 text-slate-500 space-y-2 pb-2 hidden">
+                        <li><a href="/book-your-stay/" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-semibold">Info</a></li>
+                        <li><a href="/book-your-stay/reserve/" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-semibold">Reserve</a></li>
+                        <li><a href="/book-your-stay/faq/" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-semibold">FAQ</a></li>
+                        <li><a href="/book-your-stay/reviews/" class="block hover:text-teal-600 duration-300 py-1 sm:text-lg font-semibold">Reviews</a></li>
+                    </ul>
+                </li>
+                <li class="border-1 border-b border-slate-400 mx-4 my-2">
+                    <a href="/blog/" class="flex justify-between items-center w-full text-left hover:text-blue-600 duration-300 px-3.5 pt-3 pb-2 pl-0 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3">
+                        Blog
+                    </a>
+                </li>
+                <li class="border-1 border-b border-slate-400 mx-4 my-2">
+                    <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="flex justify-between items-center w-full text-left hover:text-blue-600 duration-300 px-3.5 pt-3 pb-2 pl-0 list-none sm:text-lg font-semibold outline-none focus:outline-none mb-3">
+                        Donate
+                    </a>
+                </li>
+                <li class="border-1 border-b border-slate-400 mx-4 my-2">
+                    <a href="/live/" class="block hover:text-teal-600 duration-300 px-3.5 pt-2 pb-6 list-none sm:text-lg font-semibold w-full">
+                        <span class="w-2 h-2 rounded-full bg-red-600 live-dot inline-block"></span> &nbsp; Livestream
+                    </a>
+                </li>
+            </ul>
+        </div>
 
         <main>
             <section id="hook" class="h-screen relative" style="background-image: url('https://res.cloudinary.com/djrhjkkvm/image/upload/v1729568533/billimarie_for-every-star-a-tree_starry-night-skoolie_desert_2022_xlji3g.jpg'); background-size:cover; background-position:left center;">
@@ -790,37 +545,268 @@
             </div>
 
             <script type="text/javascript">
+                /*=======
+                MENU
+                =======*/
+    
+                var menu = document.getElementById("menu"),
+                screen = document.getElementsByTagName("body")[0],
+                openButton = document.getElementById("openButton"),
+                closeButton = document.getElementById("closeButton"),
+                banner = document.getElementById("banner"),
+                closeBannerBtn = document.getElementById("closeBannerBtn"),
+                counter = 50,
+                c = 0;
+    
+                function closeBanner() {
+                    banner.classList.add("w-0", "h-0", "opacity-0", "hidden");
+                }
+    
+                function toggleAccordion(menuId, button) {
+                    // Toggle the sub-menu visibility
+                    const menu = document.getElementById(menuId);
+                    menu.classList.toggle('hidden');
+    
+                    // Rotate the arrow icon
+                    const svg = button.querySelector('svg');
+                    if (svg) {
+                    svg.classList.toggle('rotate-180');
+                    }
+                }
+    
+                function openMenu() {
+                menu.classList.remove("w-0", "h-0", "opacity-0", "hidden");
+                menu.classList.add("w-screen", "h-screen", "opacity-95");
+                screen.classList.add("overflow-hidden");
+                openButton.classList.add("opacity-0");
+                closeButton.classList.remove("hidden");
+                }
+                
+                function closeMenu() {
+                menu.classList.remove("w-screen", "h-screen", "opacity-95");
+                menu.classList.add("w-0", "h-0", "opacity-0", "hidden");
+                screen.classList.remove("overflow-hidden");
+                openButton.classList.remove("opacity-0");
+                closeButton.classList.add("hidden");
+                }
+    
+                /*==========
+                SOCIAL POPUP
+                ==========*/
                 const donations = [
-                    "Elsa & Ed donated $100 to honor an Anonymous sponsor, and to celebrate Elsa's 2-year post-heart transplant 🎉",
-                    "Maxwell & Snow donated $5 for the month! 🎉",
+                    "E. Garcia-Chau gave $100 in memory of her organ donor 💚",
+                    "Cara Lopez Lee raised $555 for the Tiny Forest! 🌻",
+                    "Chris L. gifted $45 for biodiversity 🌱",
+                    "The Golden Family donated $50 in memory of Bonnie Jean Maichle ❤️",
+                    "E. Garcia-Chau donated $100 to honor an Anonymous sponsor, and to celebrate a 2-year post-heart transplant 🎉",
+                    "Maxwell & Snow donated $5 for the month 🎉",
+                    "Anekha Goyal gifted $20 for nature 🌻",
+                    "De gave $20 to help us plant 💚",
+                    "Robin S. donated $50 to help heal desertified earth 🌱",
+                    "Anonymous gave $25 to help with compost 🪱",
+                    "Barbara ☀️ donated $20 to help sow seeds in the desert",
+                    "Rowen's 5th Birthday planted a tree and stayed overnight on the Starry Night Skoolie 🚌",
+                    "SC and JW and VNWC gifted $46 to help plant trees 🌳",
+                    "Wes Mama gifted $155 to help water the Tiny Forest 🌱", 
+                    "KG Forest sponsored a Tiny Forest for $4,000. THANK YOU! ❤️",
+                    "Hannah, Dylan, and Haku gave $36 for our animal rescues 💖", 
+                    "Baron & Jill planted a tree and stayed overnight on the Starry Night Skoolie 🚌",
+                    "🥚 gifted funds to help maintain our website ❤️",
+                    "Big D and MD donated $1 ☀️",
                     "Marley gave $50 on Indy's behalf. Thank you 💚",
-                    "August contributed $10 for the month! 🌱",
-                    "FdK gave $10 to help plant trees! 🌳",
+                    "Anonymous contributed $10 for the month 🌱",
+                    "FdK gave $10 to help plant trees 🌳",
                     "Rae Amber donated $6! Every bit helps 💖",
                 ];
-
+    
                 function showDonationPopup() {
                 const popup = document.getElementById("donation-popup");
                 const message = document.getElementById("donation-message");
-
+    
                 // Pick a random donation message
                 const randomDonation = donations[Math.floor(Math.random() * donations.length)];
                 message.textContent = randomDonation;
-
+    
                 // Show popup with slide-up animation
                 popup.classList.remove("hidden");
                 popup.classList.add("animate-slide-up-down");
-
-                // Hide popup after 8 seconds
+    
+                // Hide popup after 9 seconds
                 setTimeout(() => {
                     popup.classList.add("hidden");
                     popup.classList.remove("animate-slide-up-down");
-                }, 8000);
+                }, 9000);
                 }
-
-                // Show a donation every 10-20 seconds
-                setInterval(showDonationPopup, Math.floor(Math.random() * (20000 - 10000 + 1)) + 10000);
-            </script>
     
+                // Show a donation every 20 seconds (20000 ms)
+                setInterval(showDonationPopup, 20000);
+    
+                /*==========
+                IMPACT TIMER
+                ==========*/
+    
+                document.addEventListener("DOMContentLoaded", () => {
+                    const counters = document.querySelectorAll('.counter');
+                    
+                    // Config: speed of the count up (lower is faster)
+                    const speed = 200; 
+                
+                    const animateCounters = (entries, observer) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const counter = entry.target;
+                                const updateCount = () => {
+                                    const target = +counter.getAttribute('data-target');
+                                    const count = +counter.innerText;
+                                    
+                                    // Determine increment step
+                                    const inc = target / speed;
+                
+                                    if (count < target) {
+                                        counter.innerText = Math.ceil(count + inc);
+                                        setTimeout(updateCount, 20);
+                                    } else {
+                                        counter.innerText = target;
+                                    }
+                                };
+                                updateCount();
+                                observer.unobserve(counter); // Only run once
+                            }
+                        });
+                    };
+                
+                    const observer = new IntersectionObserver(animateCounters, {
+                        threshold: 0.5 // Trigger when 50% of the element is visible
+                    });
+                
+                    counters.forEach(counter => {
+                        observer.observe(counter);
+                    });
+                });
+    
+                /*=========
+                DONOR MODAL
+                =========*/
+    
+                // Elements
+                const modalOverlay = document.getElementById('modalOverlay');
+                const openBtns = document.querySelectorAll('.open-modal');
+                const closeBtn = document.getElementById('closeModal');
+                const backBtn = document.getElementById('backBtn');
+                
+                // Steps & Progress
+                const step1 = document.getElementById('step1');
+                const step2 = document.getElementById('step2');
+                const progressBar = document.getElementById('progressBar');
+                const stepText = document.getElementById('stepText');
+                const subOptions = document.querySelectorAll('.sub-options');
+    
+                // 1. Open / Close Logic
+                const openModal = () => {
+                    resetModal();
+                    modalOverlay.classList.add('visible');
+                    document.body.style.overflow = 'hidden';
+                };
+    
+                const closeModal = () => {
+                    modalOverlay.classList.remove('visible');
+                    document.body.style.overflow = '';
+                };
+    
+                // Reset to Step 1 state
+                const resetModal = () => {
+                    step1.classList.remove('hidden');
+                    step2.classList.add('hidden');
+                    progressBar.style.width = '50%';
+                    stepText.textContent = "Step 1 of 2";
+                    // Hide all sub-option lists
+                    subOptions.forEach(el => el.classList.add('hidden'));
+                };
+    
+                // Event Listeners for Open/Close
+                openBtns.forEach(btn => btn.addEventListener('click', openModal));
+                closeBtn.addEventListener('click', closeModal);
+                window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+                modalOverlay.addEventListener('click', (e) => { if (e.target === modalOverlay) closeModal(); });
+    
+                // 2. Navigation Logic (The Category Buttons)
+                const categoryBtns = document.querySelectorAll('.category-btn');
+    
+                categoryBtns.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const type = btn.getAttribute('data-type');
+    
+                        if (type === 'link') {
+                            // If it's a direct link (General, Irrigation, etc)
+                            const url = btn.getAttribute('data-url');
+                            window.open(url, '_blank');
+                            // Optional: Close modal after clicking? 
+                            // closeModal(); 
+                        } else if (type === 'folder') {
+                            // If it requires Step 2 (Animals, Food Forest, etc)
+                            const targetId = btn.getAttribute('data-target');
+                            goToStep2(targetId);
+                        }
+                    });
+                });
+    
+                const goToStep2 = (targetId) => {
+                    // Hide Step 1, Show Step 2
+                    step1.classList.add('hidden');
+                    step2.classList.remove('hidden');
+                    
+                    // Update Progress
+                    progressBar.style.width = '100%';
+                    stepText.textContent = "Step 2 of 2";
+    
+                    // Show specific sub-options, hide others
+                    subOptions.forEach(el => {
+                        if (el.id === targetId) {
+                            el.classList.remove('hidden');
+                        } else {
+                            el.classList.add('hidden');
+                        }
+                    });
+                };
+    
+                // 3. Back Button Logic
+                backBtn.addEventListener('click', () => {
+                    step2.classList.add('hidden');
+                    step1.classList.remove('hidden');
+                    progressBar.style.width = '50%';
+                    stepText.textContent = "Step 1 of 2";
+                });
+    
+                /*==========
+                MAILING LIST
+                ===========*/
+    
+                const mailingListLinks = document.querySelectorAll('a[href="#mailing-list"]'),
+                        topLink = document.querySelectorAll('a[href="#"]'); // finish scroll to top animation another
+                
+                mailingListLinks.forEach((link) => {
+                    link.addEventListener("click", (e) => {
+                    e.preventDefault();
+                
+                    const mailingList =
+                        document.getElementById("mailing-list");
+                    if (!mailingList) return;
+                
+                    const yOffset =
+                        window.innerHeight / 2 -
+                        mailingList.offsetHeight / 2;
+                
+                    const y =
+                        mailingList.getBoundingClientRect().top +
+                        window.pageYOffset -
+                        yOffset;
+                
+                    window.scrollTo({
+                        top: y,
+                        behavior: "smooth",
+                    });
+                    });
+                });
+            </script>
     </body>
 </html>
