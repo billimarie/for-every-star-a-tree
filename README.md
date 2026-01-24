@@ -2,7 +2,15 @@
 
 # For Every Star, A Tree
 
-**The official website for *For Every Star A Tree,* a 501(c)(3) nonprofit on a mission to regenerate desertified land into a thriving oasis through community-led earthcare.**
+Since 2021, our motto has been "Earthcare > Doomscrolling."
+
+We believe it is better to make a small difference than none at all.
+
+We do this by inviting others into our version of Earthwork and Earthcare: tending to the land by watering, sowing seeds, moving mulch, and planting trees.
+
+## About This Repo
+
+This is the official website for *For Every Star A Tree,* a 501(c)(3) nonprofit on a mission to regenerate desertified land into a thriving oasis through community-led earthcare.
 
 ##  Mission & Impact
 For Every Star A Tree is an official **501(c)(3) nonprofit** ([Candid](https://app.candid.org/profile/15433332/)) dedicated to cultivating biodiversity in Los Angeles County's desertified region through scalable, climate-resilient miniature forests.
