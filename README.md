@@ -19,8 +19,8 @@ We need in-person, volunteer Earthworkers to join us. You can come for a plantin
 
 ## Get Involved  
 - **[Official Website](https://foreverystaratree.org):** Explore our mission, impact, and updates.
-- **[Sign Up To Volunteer](https://foreverystaratree.org/volunteer/)
-- **[Donate](www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true)
+- **[Sign Up To Volunteer](https://foreverystaratree.org/volunteer/)**: Come to the land and help us move mulch, carry water, and tend to the Earth.
+- **[Donate](www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true)**: Support our nonprofit efforts with a tax-deductible donation.
 - **[Idealist Profile](https://www.idealist.org/en/nonprofit/4bb5354de53f4f91b5963e24ff5d0054-for-every-star-a-tree-los-angeles):** Featured as a volunteer-led ecofarm stewarding desert regeneration.
 - **Social Media**: [LinkedIn](https://www.linkedin.com/company/for-every-star-a-tree), [TikTok](https://www.tiktok.com/@foreverystaratree), [Twitter/X](https://x.com/everystaratree)
 
