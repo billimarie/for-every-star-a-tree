@@ -903,20 +903,20 @@
                                 <span><strong>66%</strong></span>
                             </div>
 
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="--progress: 74%;"></div>
+                            <div class="progress-bar bg-stone-200 overflow-hidden rounded-full h-6">
+                                <div class="progress-fill" style="--final-width: 66%;"></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="flex flex-col md:flex-row gap-4">
-                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="inline-block text-center rounded-md pt-3 pb-4 px-6 text-xl dosis-extra-bold uppercase text-white bg-cyan-900 transition-all duration-300 hover:scale-[1.1] hover:bg-cyan-950 shadow-lg">
-                                One-Time Donation
-                            </a>
-                            <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?openFundraiser=true" target="_blank" class="inline-block text-center rounded-md pt-3 pb-4 px-6 text-xl dosis-extra-bold uppercase text-white bg-cyan-600 transition-all duration-300 hover:scale-[1.1] hover:bg-teal-600 shadow-lg">
-                                Start A Fundraiser
-                            </a>
-                        </div>
+                        <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="inline-block text-center rounded-md pt-3 pb-4 px-6 text-xl dosis-extra-bold uppercase text-white bg-cyan-900 transition-all duration-300 hover:scale-[1.1] hover:bg-cyan-950 shadow-lg">
+                            One-Time Donation
+                        </a>
+                        <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?openFundraiser=true" target="_blank" class="inline-block text-center rounded-md pt-3 pb-4 px-6 text-xl dosis-extra-bold uppercase text-white bg-cyan-600 transition-all duration-300 hover:scale-[1.1] hover:bg-teal-600 shadow-lg">
+                            Start A Fundraiser
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -1042,67 +1042,12 @@
             </div>
         </footer>
 
-        <!-- SOCIAL PROOF DONATION POP-UP -->
-            <div id="donation-popup" class="z-50 animate-slide-up-down hidden fixed bottom-0 max-w-2/3 sm:max-w-2/3 flex flex-wrap p-4 bg-gray-50 shadow-md border rounded-md m-4">
-                <a class="absolute w-full h-full top-0 left-0" href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank"></a>
-                <div class="flex items-center">
-                    <div class="text-left grow">
-                        <p id="donation-message" class="text-gray-600 text-sm sm:text-xl lg:text-1xl"><span class="font-semibold">Marley F.</span> donated $50 on <span class="font-semibold">Indy's</span> behalf.</p>
-                    </div>
-                    <div class="text-right shrink pl-4">
-                        <a href="https://www.zeffy.com/en-US/peer-to-peer/46957d04-977c-4f4b-8174-bc49ee22348d?donate=true" target="_blank" class="inline-flex items-center px-3 py-2 text-white dosis-extra-bold uppercase text-sm sm:text-xl lg:text-1xl text-center rounded-lg color-banner">Donate</a>
-                    </div>
-                </div>
-            </div>
-
-            <script type="text/javascript">
-                const donations = [
-                    "E. Garcia-Chau gave $100 in memory of her organ donor 💚",
-                    "Chris L. gifted $45 for biodiversity 🌱",
-                    "The Golden Family donated $50 in memory of Bonnie Jean Maichle ❤️",
-                    "E. Garcia-Chau donated $100 to honor an Anonymous sponsor, &amp; to celebrate a 2-year post-heart transplant 🎉",
-                    "Maxwell &amp; Snow donated $5 for the month 🎉",
-                    "Anekha Goyal gifted $20 for nature 🌻",
-                    "De gave $20 to help us plant 💚",
-                    "Robin S. donated $50 to help heal desertified earth 🌱",
-                    "Anonymous gave $25 to help with compost 🪱",
-                    "Barbara ☀️ donated $20 to help sow seeds in the desert",
-                    "Rowen's 5th Birthday planted a tree &amp; stayed overnight on the Starry Night Skoolie 🚌",
-                    "SC &amp; JW &amp; VNWC gifted $46 to help plant trees 🌳",
-                    "Wes Mama gifted $155 to help water the Tiny Forest 🌱", 
-                    "KG Forest sponsored a Tiny Forest for $4,000. THANK YOU! ❤️",
-                    "Hannah, Dylan, &amp; Haku gave $36 for our animal rescues 💖", 
-                    "Baron &amp; Jill planted a tree &amp; stayed overnight on the Starry Night Skoolie 🚌",
-                    "🥚 gifted funds to help maintain our website ❤️",
-                    "Big D &amp; MD donated $1 ☀️",
-                    "Marley gave $50 on Indy's behalf. Thank you 💚",
-                    "Anonymous contributed $10 for the month 🌱",
-                    "FdK gave $10 to help plant trees 🌳",
-                    "Rae Amber donated $6! Every bit helps 💖",
-                ];
-
-                function showDonationPopup() {
-                const popup = document.getElementById("donation-popup");
-                const message = document.getElementById("donation-message");
-
-                // Pick a random donation message
-                const randomDonation = donations[Math.floor(Math.random() * donations.length)];
-                message.textContent = randomDonation;
-
-                // Show popup with slide-up animation
-                popup.classList.remove("hidden");
-                popup.classList.add("animate-slide-up-down");
-
-                // Hide popup after 9 seconds
-                setTimeout(() => {
-                    popup.classList.add("hidden");
-                    popup.classList.remove("animate-slide-up-down");
-                }, 9000);
-                }
-
-                // Show a donation every 20 seconds (20000 ms)
-                setInterval(showDonationPopup, 20000);
-            </script>
+        <!-- ACTIVITY TICKER -->
+        <div id="ticker-container" class="sticky opacity-80 bottom-0 z-10 bg-neutral-100 text-cyan-950 overflow-hidden shadow-md h-12 flex items-center w-full">
+            <a href="/earthworkers/" id="ticker-link-wrapper" class="flex items-center w-full h-full no-underline">
+                <div id="ticker-track" class="animate-ticker whitespace-nowrap pl-4"></div>
+            </a>
+        </div>
 
         <!-- FUNDRAISING CIRCLE 
         <div id="fundraising" class="progress-container fixed bottom-0 right-0 z-50 m-2">
@@ -1118,7 +1063,9 @@
         </div> -->
         <script type="text/javascript">
 
-            /* MENU */
+            /*=====
+            MENU
+            =====*/
             var menu = document.getElementById("menu"),
             screen = document.getElementsByTagName("body")[0],
             openButton = document.getElementById("openButton"),
@@ -1160,9 +1107,10 @@
             closeButton.classList.add("hidden");
             }
 
-    /*===
-    DONOR
-    ===*/
+            /*===
+            DONOR
+            ===*/
+
     // Elements
     const modalOverlay = document.getElementById('modalOverlay');
     const openBtns = document.querySelectorAll('.open-modal');
@@ -1280,6 +1228,116 @@
           });
         });
       });
+
+            /* ============
+            ACTIVITY TICKER
+            ============ */
+
+            document.addEventListener('DOMContentLoaded', () => {
+                const tickerTrack = document.getElementById('ticker-track');
+
+                // 1. Fetch the JSON data
+                // Note: For a local demo, ensure you are running a local server (like Live Server) 
+                // to avoid CORS errors when fetching 'ticker_data.json'. 
+                // If you just open the file directly, you might need to mock the data.
+                
+                fetch('ticker_data.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error("HTTP error " + response.status);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        generateTickerContent(data);
+                    })
+                    .catch(err => {
+                        console.error('Error fetching ticker data:', err);
+                        // Fallback data if fetch fails (for simple testing without a server)
+                        const fallbackData = [
+                            {
+                                "id": 1,
+                                "type": "donation",
+                                "name": "August Y.",
+                                "amount": "$10"
+                            },
+                            {
+                                "id": 2,
+                                "type": "fundraiser",
+                                "name": "Salanya I.",
+                                "url": "https://www.zeffy.com/en-US/fundraising/salanya-angel-inm"
+                            },
+                            {
+                                "id": 3,
+                                "type": "donation",
+                                "name": "Anonymous",
+                                "amount": "$25"
+                            },
+                        ];
+                        generateTickerContent(fallbackData);
+                    });
+
+                function generateTickerContent(items) {
+                    // Helper function to format the text
+                    const formatMessage = (item) => {
+                        const suffix = "";
+                        
+                        if (item.type === 'donation') {
+                            return `<span class="font-bold">${item.name}</span> donated <span class="font-bold text-cyan-600">${item.amount}</span> ${suffix}`;
+                        } else if (item.type === 'chore') {
+                            return `<span class="font-bold">${item.name}</span> <span class="italic">${item.chore}</span> ${suffix}`;
+                        } else if (item.type === 'fundraiser') {
+                            return `<span class="font-bold">${item.name}</span> started a <a href="${item.url}" target="_blank" class="underline font-bold text-cyan-600">fundraiser</a> ${suffix}`;
+                        }
+                        return '';
+                    };
+
+                    // Create HTML string for items
+                    // We map through the items and join them with a separator
+                    const separator = '<span class="mx-6 text-stone-400 opacity-50 text-sm">✦</span>';
+                    
+                    const itemsHtml = items.map(item => {
+                        return `<span>${formatMessage(item)}</span>`;
+                    }).join(separator);
+
+                    // 2. Duplicate content for seamless infinite scroll
+                    // We add the content twice (or more) so that when the first set scrolls off, 
+                    // the second set is immediately visible.
+                    tickerTrack.innerHTML = itemsHtml + separator + itemsHtml + separator;
+                }
+            });
+
+            /*==================
+            CAMPAIGN THERMOMETER
+            ==================*/
+
+            document.addEventListener('DOMContentLoaded', () => {
+                const observerOptions = {
+                    threshold: 0.2 // Trigger when 20% of the section is visible
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            // Find the fill bar inside the section
+                            const fillBar = entry.target.querySelector('.progress-fill');
+                            
+                            if (fillBar) {
+                                // Adding this class kicks off the CSS animation
+                                fillBar.classList.add('animate-now');
+                            }
+                            
+                            // Stop watching once the animation has started
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, observerOptions);
+
+                const campaignSection = document.getElementById('campaign');
+                if (campaignSection) {
+                    observer.observe(campaignSection);
+                }
+            });
 
         </script>
     </body>

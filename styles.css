@@ -204,3 +204,39 @@ object-fit: cover;
     outline: 3px solid #67e8f9;
     border-radius: 1rem;
 }
+
+/* ==== ACTIVITY TICKER === */
+@keyframes ticker-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.animate-ticker {
+    display: flex;
+    width: fit-content;
+    animation: ticker-scroll 30s linear infinite;
+}
+
+/* Pause when the link wrapper is hovered */
+#ticker-link-wrapper:hover #ticker-track {
+    animation-play-state: paused;
+}
+
+/* ==== CAMPAIGN THERMOMETER === */
+/* 1. Define the animation */
+@keyframes grow-progress {
+    from { width: 0%; }
+    to { width: var(--final-width); } /* We use a CSS variable for the goal */
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #0891b2; /* cyan-600 */
+    width: 0%; /* Start at 0% */
+    border-radius: 999px;
+}
+
+/* 2. This class will be added by JS when the user scrolls into view */
+.animate-now {
+    animation: grow-progress 2s cubic-bezier(0.1, 0.5, 0.5, 1) forwards;
+}
