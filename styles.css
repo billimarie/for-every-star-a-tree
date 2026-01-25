@@ -214,7 +214,7 @@ object-fit: cover;
 .animate-ticker {
     display: flex;
     width: fit-content;
-    animation: ticker-scroll 30s linear infinite;
+    animation: ticker-scroll 60s linear infinite;
 }
 
 /* Pause when the link wrapper is hovered */
