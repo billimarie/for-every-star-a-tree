@@ -71,21 +71,4 @@
         "name": "Nancy",
         "amount": "$50"
     }
-    // {
-    //   "id": 6,
-    //   "type": "fundraiser",
-    //   "name": "The Smith Family"
-    // },
-    // {
-    //   "id": 7,
-    //   "type": "donation",
-    //   "name": "Sarah J.",
-    //   "amount": "$25"
-    // },
-    // {
-    //   "id": 8,
-    //   "type": "chore",
-    //   "name": "Davide B.",
-    //   "chore": "mulched the garden beds"
-    // }
-  ]
+]
