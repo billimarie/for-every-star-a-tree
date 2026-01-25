@@ -1248,7 +1248,7 @@
                 // to avoid CORS errors when fetching 'ticker_data.json'. 
                 // If you just open the file directly, you might need to mock the data.
                 
-                fetch('ticker_data.json')
+                fetch('/ticker_data.json')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error("HTTP error " + response.status);

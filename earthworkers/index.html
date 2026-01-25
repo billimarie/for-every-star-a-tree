@@ -910,101 +910,6 @@
                 stepText.textContent = "Step 1 of 2";
             });
 
-            /*=======
-            TIMELAPSE
-            =======*/
-
-            const frames = [
-                {
-                    year: "1994",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292581/Satellite/for-every-star-a-tree_historical-satellite-imagery_1994_zsgnr3.png"
-                },
-                {
-                    year: "2005",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292593/Satellite/for-every-star-a-tree_historical-satellite-imagery_2005_kigzb3.png"
-                },
-                {
-                    year: "2008",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292592/Satellite/for-every-star-a-tree_historical-satellite-imagery_2008_gtmy2h.png"
-                },
-                {
-                    year: "2011",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292601/Satellite/for-every-star-a-tree_historical-satellite-imagery_2011_xvioms.png"
-                },
-                {
-                    year: "2013",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292594/Satellite/for-every-star-a-tree_historical-satellite-imagery_2013_wjkwd1.png"
-                },
-                {
-                    year: "2015",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292597/Satellite/for-every-star-a-tree_historical-satellite-imagery_2015_hmvter.png"
-                },
-                {
-                    year: "2017",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292606/Satellite/for-every-star-a-tree_historical-satellite-imagery_2017_lfuyqb.png"
-                },
-                {
-                    year: "2020",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292605/Satellite/for-every-star-a-tree_historical-satellite-imagery_2020_rqk6lt.png"
-                },
-                {
-                    year: "2023",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292606/Satellite/for-every-star-a-tree_historical-satellite-imagery_2023_mqid7p.png"
-                },
-                {
-                    year: "2025",
-                    src: "https://res.cloudinary.com/djrhjkkvm/image/upload/v1767292601/Satellite/for-every-star-a-tree_historical-satellite-imagery_2025_j6g7bj.png"
-                }
-                ];
-                
-                const imageEl = document.getElementById("satelliteImage");
-                const yearLabel = document.getElementById("yearLabel");
-                
-                let index = 0;
-                let interval;
-                
-                // preload images
-                frames.forEach(frame => {
-                const img = new Image();
-                img.src = frame.src;
-                });
-                
-                function showFrame() {      
-                    // Reset zoom immediately for all non-final frames
-                    if (index !== frames.length - 1) {
-                        imageEl.style.transition = "none"; // disable transition to prevent zoom out
-                        imageEl.classList.remove("zoom-final");
-                        void imageEl.offsetWidth; // force reflow
-                        imageEl.style.transition = ""; // restore CSS transition
-                    }
-
-                    // Show current frame
-                    imageEl.src = frames[index].src;
-                    yearLabel.textContent = frames[index].year;
-
-                    // If this is the last frame, pause & zoom
-                    if (index === frames.length - 1) {
-                        imageEl.classList.add("zoom-final");
-                        clearInterval(interval);
-
-                        setTimeout(() => {
-                            index = 0;
-                            interval = setInterval(showFrame, 500);
-                        }, 3000);
-
-                        return;
-                    }
-                    
-                    index++;
-                }
-                
-                // initial load
-                imageEl.src = frames[0].src;
-                yearLabel.textContent = frames[0].year;
-                
-                // play loop
-                interval = setInterval(showFrame, 500);
-
             /*==========
             MAILING LIST
             ===========*/
@@ -1048,7 +953,7 @@
                 // to avoid CORS errors when fetching 'ticker_data.json'. 
                 // If you just open the file directly, you might need to mock the data.
                 
-                fetch('ticker_data.json')
+                fetch('/ticker_data.json')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error("HTTP error " + response.status);
