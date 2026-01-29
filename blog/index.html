@@ -966,31 +966,32 @@
             ==================*/
 
             document.addEventListener('DOMContentLoaded', () => {
+                // 1. Setup the Observer
                 const observerOptions = {
-                    threshold: 0.2 // Trigger when 20% of the section is visible
+                    threshold: 0.2 // Trigger when 20% of the bar is visible
                 };
-
+            
                 const observer = new IntersectionObserver((entries) => {
                     entries.forEach(entry => {
                         if (entry.isIntersecting) {
-                            // Find the fill bar inside the section
-                            const fillBar = entry.target.querySelector('.progress-fill');
+                            // Find the bar itself
+                            const fillBar = entry.target;
                             
-                            if (fillBar) {
-                                // Adding this class kicks off the CSS animation
-                                fillBar.classList.add('animate-now');
-                            }
+                            // Add the animation class defined in your styles.css
+                            fillBar.classList.add('animate-now');
                             
-                            // Stop watching once the animation has started
-                            observer.unobserve(entry.target);
+                            // Stop watching this specific bar once it has started animating
+                            observer.unobserve(fillBar);
                         }
                     });
                 }, observerOptions);
-
-                const campaignSection = document.querySelector('.progress-bar')?.parentElement;
-                if (campaignSection) {
-                    observer.observe(campaignSection);
-                }
+            
+                // 2. Tell the observer to watch ALL progress-fill elements on the page
+                const allProgressBars = document.querySelectorAll('.progress-fill');
+                
+                allProgressBars.forEach(bar => {
+                    observer.observe(bar);
+                });
             });
 
             /*==========
