@@ -961,6 +961,38 @@
                 stepText.textContent = "Step 1 of 2";
             });
 
+            /*==================
+            CAMPAIGN THERMOMETER
+            ==================*/
+
+            document.addEventListener('DOMContentLoaded', () => {
+                const observerOptions = {
+                    threshold: 0.2 // Trigger when 20% of the section is visible
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            // Find the fill bar inside the section
+                            const fillBar = entry.target.querySelector('.progress-fill');
+                            
+                            if (fillBar) {
+                                // Adding this class kicks off the CSS animation
+                                fillBar.classList.add('animate-now');
+                            }
+                            
+                            // Stop watching once the animation has started
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, observerOptions);
+
+                const campaignSection = document.getElementById('campaign');
+                if (campaignSection) {
+                    observer.observe(campaignSection);
+                }
+            });
+
             /*==========
             MAILING LIST
             ===========*/
