@@ -987,7 +987,7 @@
                     });
                 }, observerOptions);
 
-                const campaignSection = document.getElementById('campaign');
+                const campaignSection = document.querySelector('.progress-bar')?.parentElement;
                 if (campaignSection) {
                     observer.observe(campaignSection);
                 }
